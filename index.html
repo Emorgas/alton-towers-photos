@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Scarefest Through the Years — Alton Towers Ride Photos</title>
+<meta name="description" content="Our Alton Towers ride photos, grouped by ride and year. Same rides, same friends, worsening screams.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+:root{
+  --night:#101318; --panel:#171c24; --panel2:#1d242f; --line:#2a3342;
+  --ink:#eef1f4; --mist:#9aa7b5; --ember:#ff9e45; --ember2:#ffcf87;
+  --purple:#9a7bff; --green:#62d99a; --radius:14px;
+  --display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;
+  --body:"Atkinson Hyperlegible","Helvetica Neue",Arial,system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:radial-gradient(1100px 500px at 85% -80px,rgba(154,123,255,.16),transparent 60%),radial-gradient(900px 480px at 8% -60px,rgba(255,158,69,.13),transparent 55%),var(--night);color:var(--ink);font:16px/1.55 var(--body)}
+.wrap{max-width:1320px;margin:0 auto;padding:34px 20px 70px;display:grid;gap:26px}
+header.hero{display:grid;gap:12px;max-width:78ch}
+.eyebrow{font:700 12px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--ember)}
+h1{font:800 clamp(32px,5.4vw,56px)/1.02 var(--display);margin:0;letter-spacing:-.015em;text-wrap:balance}
+h1 .grad{background:linear-gradient(92deg,var(--ember2),var(--ember) 45%,var(--purple));-webkit-background-clip:text;background-clip:text;color:transparent}
+header.hero p{margin:0;color:var(--mist);font-size:17px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;color:var(--mist)}
+.stat b{color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* controls */
+.controls{position:sticky;top:0;z-index:30;background:rgba(16,19,24,.92);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:grid;gap:12px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px}
+.tab{font:700 14px/1 var(--body);padding:11px 16px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--mist);cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--ember);border-color:var(--ember);color:#201304}
+.tab:hover{color:var(--ink)} .tab[aria-pressed="true"]:hover{color:#201304}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.row .lbl{font:700 11px/1 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--mist);margin-right:2px}
+.chip{font:700 13px/1 var(--body);padding:9px 13px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--mist);cursor:pointer}
+.chip:hover{color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--panel2);color:var(--ink);border-color:var(--ember)}
+.chip.person[aria-pressed="true"]{border-color:var(--purple);background:rgba(154,123,255,.16)}
+.chip .n{opacity:.65;font-weight:400}
+select,input[type=text]{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:9px 11px;font:14px var(--body)}
+.btn{font:700 13px/1 var(--body);padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--ink);cursor:pointer}
+.btn:hover{border-color:var(--ember)}
+.btn.primary{background:var(--ember);border-color:var(--ember);color:#201304}
+.btn[aria-pressed="true"]{background:var(--purple);border-color:var(--purple);color:#160b33}
+.count{color:var(--mist);font-size:14px;margin-left:auto}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.card{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:grid;cursor:pointer}
+.card:hover{border-color:var(--ember)}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#0a0c0f}
+.card figcaption{padding:10px 12px 12px;display:grid;gap:6px}
+.card .t{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.card .ride{font:700 16px/1.15 var(--display)}
+.card .year{color:var(--ember2);font-weight:700;font-size:13px;white-space:nowrap}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.ptag{font-size:12px;padding:4px 8px;border-radius:999px;background:rgba(154,123,255,.15);border:1px solid rgba(154,123,255,.4);color:#d9cdff}
+.ptag.none{background:transparent;border-style:dashed;color:var(--mist)}
+
+/* ride sections */
+.ridegroup{display:grid;gap:12px}
+.ridegroup>h2,.viewhead{font:700 clamp(20px,2.6vw,27px)/1.15 var(--display);margin:6px 0 0;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline}
+.ridegroup>h2 .sub,.viewhead .sub{font:400 14px var(--body);color:var(--mist)}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,300px);gap:12px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x proximity}
+.strip .card{scroll-snap-align:start}
+
+/* compare */
+.years{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.yearcol{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px;display:grid;gap:10px;align-content:start}
+.yearcol h3{margin:0;font:800 22px/1 var(--display);color:var(--ember2)}
+.yearcol .empty{color:var(--mist);font-size:14px;border:1px dashed var(--line);border-radius:10px;padding:16px;text-align:center}
+.yearcol .card{border:0;background:var(--panel2)}
+
+footer{color:var(--mist);font-size:14px;border-top:1px solid var(--line);padding-top:18px;display:grid;gap:6px}
+footer p{margin:0}
+a{color:var(--ember2)}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:60;background:rgba(5,6,8,.93);display:grid;grid-template-rows:1fr auto;place-items:center;padding:18px}
+.lb[hidden]{display:none}
+.lb img{max-width:min(1100px,96vw);max-height:74vh;border-radius:10px;box-shadow:0 18px 60px rgba(0,0,0,.6)}
+.lb .bar{width:min(1100px,96vw);display:grid;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-top:12px}
+.lb .bar .top{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;justify-content:space-between}
+.lb .title{font:700 20px/1.2 var(--display)}
+.lb .meta{color:var(--mist);font-size:14px}
+.lb .nav{display:flex;gap:8px}
+.tagbox{border-top:1px dashed var(--line);padding-top:10px;display:grid;gap:8px}
+.tagbox .who{display:flex;flex-wrap:wrap;gap:6px}
+.tagbox .who .chip[aria-pressed="true"]{border-color:var(--purple);background:rgba(154,123,255,.2);color:var(--ink)}
+.hint{font-size:13px;color:var(--mist)}
+@media(max-width:560px){.wrap{padding-inline:14px}.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Alton Towers · Scarefest season · October trips</div>
+    <h1>Same rides. Same friends. <span class="grad">Worsening screams.</span></h1>
+    <p>Every on-ride photo from our October trips, grouped by ride so you can watch us age
+    one coaster at a time. Filter by who is in the photo once people have been tagged —
+    hit <b>Tag mode</b>, open a photo, and tap the names that apply.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section class="controls" aria-label="Filters and views">
+    <div class="tabs" role="group" aria-label="View">
+      <button class="tab" data-view="all" aria-pressed="true">All photos</button>
+      <button class="tab" data-view="ride" aria-pressed="false">By ride</button>
+      <button class="tab" data-view="compare" aria-pressed="false">Compare years</button>
+      <button class="tab" data-view="year" aria-pressed="false">By year</button>
+    </div>
+    <div class="row" id="yearRow"><span class="lbl">Year</span></div>
+    <div class="row" id="rideRow"><span class="lbl">Ride</span></div>
+    <div class="row" id="peopleRow"><span class="lbl">People</span><span class="hint" id="peopleHint">No one tagged yet — turn on Tag mode and open a photo to start.</span></div>
+    <div class="row">
+      <button class="btn" id="tagModeBtn" aria-pressed="false">✎ Tag mode</button>
+      <button class="btn" id="addPersonBtn">＋ Add a person</button>
+      <button class="btn" id="exportBtn">Export tags</button>
+      <label class="btn" for="importFile" style="cursor:pointer">Import tags</label>
+      <input type="file" id="importFile" accept="application/json" hidden>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="row" id="compareRow" hidden>
+      <span class="lbl">Compare ride</span>
+      <select id="compareSelect" aria-label="Ride to compare"></select>
+      <span class="hint">One column per trip — the same ride, across the years.</span>
+    </div>
+  </section>
+
+  <main id="main"></main>
+
+  <footer>
+    <p>Photos live in Stephen's Google Drive (“Alton Towers” folder); this page uses web-sized copies.
+    Full-resolution originals are in Drive — ask Stephen for the folder link.</p>
+    <p>Tagging is saved in your browser on this device. Use <b>Export tags</b> and send the file to Stephen
+    and he can bake your tags into the site so everyone sees them.</p>
+  </footer>
+</div>
+
+<div class="lb" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <img id="lbImg" alt="">
+  <div class="bar">
+    <div class="top">
+      <div><div class="title" id="lbTitle"></div><div class="meta" id="lbMeta"></div></div>
+      <div class="nav">
+        <button class="btn" id="lbPrev">← Prev</button>
+        <button class="btn" id="lbNext">Next →</button>
+        <button class="btn primary" id="lbClose">Close ✕</button>
+      </div>
+    </div>
+    <div class="row">
+      <a class="btn" id="lbDrive" href="#" target="_blank" rel="noopener">Open original in Drive ↗</a>
+      <span class="hint" id="lbRideEditWrap" hidden>Ride:
+        <select id="lbRideEdit" aria-label="Correct the ride for this photo"></select>
+      </span>
+    </div>
+    <div class="tagbox" id="lbTagBox">
+      <div class="lbl" style="font:700 11px/1 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--mist)">Who is in this photo?</div>
+      <div class="who" id="lbWho"></div>
+      <div class="hint" id="lbTagHint">Turn on Tag mode (top of the page) to edit these.</div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

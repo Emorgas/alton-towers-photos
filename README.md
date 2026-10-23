@@ -1,4 +1,6 @@
-# Scarefest Through the Years — Alton Towers Ride Photos
+# Flamin' Moe's - Through the years
+
+The Alton Towers ride-photo wall for the Flamin' Moe's gang.
 
 Our Alton Towers on-ride photos from the October trips (2014, 2015, 2016, 2018, 2019, 2023, 2024, 2026),
 grouped by ride so the same ride can be compared across the years.

@@ -252,8 +252,14 @@ document.addEventListener("keydown", e => {
 });
 
 /* controls */
-document.querySelectorAll(".tab").forEach(t => t.onclick = () => { state.view = t.dataset.view; render(); });
-$("#compareSelect").onchange = e => { state.compareRide = e.target.value; render(); };
+function scrollMainIntoView() {
+  const c = document.querySelector(".controls");
+  const offset = (c ? c.getBoundingClientRect().height : 0) + 30;
+  const y = main.getBoundingClientRect().top + window.scrollY - offset;
+  window.scrollTo({ top: Math.max(0, y), behavior: "auto" });
+}
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => { state.view = t.dataset.view; render(); scrollMainIntoView(); });
+$("#compareSelect").onchange = e => { state.compareRide = e.target.value; render(); scrollMainIntoView(); };
 $("#tagModeBtn").onclick = e => { state.tagMode = !state.tagMode; e.currentTarget.setAttribute("aria-pressed", state.tagMode); if (!$("#lightbox").hidden) showLb(); };
 $("#addPersonBtn").onclick = () => {
   const name = prompt("Person's name (as it should appear on tags):");

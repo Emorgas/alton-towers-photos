@@ -7,7 +7,26 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "503073812_3252344188241374_504626910871011916_n.jpg",
   "drive": "https://drive.google.com/file/d/1n7pAl_zUcFFm9AjcB2aYzhiUo0l9qKer/view?usp=drivesdk",
-  "driveId": "1n7pAl_zUcFFm9AjcB2aYzhiUo0l9qKer"
+  "driveId": "1n7pAl_zUcFFm9AjcB2aYzhiUo0l9qKer",
+  "count": 4,
+  "seats": [
+   {
+    "note": "grey and black jacket, holding blaster",
+    "pos": "back-left"
+   },
+   {
+    "note": "long curly hair, black top, holding blaster",
+    "pos": "back-right"
+   },
+   {
+    "note": "glasses, dark sweater, holding blaster",
+    "pos": "front-left"
+   },
+   {
+    "note": "tan coat, striped gloves, holding blaster",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p002",
@@ -17,7 +36,34 @@
   "ride": "Congo River Rapids",
   "originalName": "648987279_10242302938172929_7063138797206283168_n.jpg",
   "drive": "https://drive.google.com/file/d/13P-CileTUFvfzB2EJu2oc8idZz--Jz_B/view?usp=drivesdk",
-  "driveId": "13P-CileTUFvfzB2EJu2oc8idZz--Jz_B"
+  "driveId": "13P-CileTUFvfzB2EJu2oc8idZz--Jz_B",
+  "count": 6,
+  "seats": [
+   {
+    "note": "dark jacket, peace sign",
+    "pos": "raft back-left"
+   },
+   {
+    "note": "glasses, green jacket, peace signs",
+    "pos": "raft back-middle"
+   },
+   {
+    "note": "grey hood up",
+    "pos": "raft back-right"
+   },
+   {
+    "note": "glasses, black jacket",
+    "pos": "raft front-left"
+   },
+   {
+    "note": "maroon hoodie, back to camera",
+    "pos": "raft front-right"
+   },
+   {
+    "note": "blue and white sleeve, head partly hidden",
+    "pos": "raft middle-right"
+   }
+  ]
  },
  {
   "id": "p003",
@@ -27,7 +73,30 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "20261023150821_001.jpg",
   "drive": "https://drive.google.com/file/d/1ilyYhlKUdN3tpHO8XUSOpWH4NWUx3NIw/view?usp=drivesdk",
-  "driveId": "1ilyYhlKUdN3tpHO8XUSOpWH4NWUx3NIw"
+  "driveId": "1ilyYhlKUdN3tpHO8XUSOpWH4NWUx3NIw",
+  "count": 5,
+  "seats": [
+   {
+    "note": "dark top, holding blaster",
+    "pos": "back-left"
+   },
+   {
+    "note": "black t-shirt, holding blaster up",
+    "pos": "back-middle"
+   },
+   {
+    "note": "glasses, dark sweater, holding blaster",
+    "pos": "front-left"
+   },
+   {
+    "note": "black top with yellow sleeve stripes, skeleton-pattern trousers",
+    "pos": "front-middle"
+   },
+   {
+    "note": "glasses, red t-shirt, holding blaster",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p004",
@@ -37,7 +106,28 @@
   "ride": "Rita",
   "originalName": "18u8ccer4omp8vhuy6bgzn04n014s73djna0f60qlz8h27qxhm.jpg",
   "drive": "https://drive.google.com/file/d/1Hk1jH71Vf3fafPhSk9avlS_krti1ja6r/view?usp=drivesdk",
-  "driveId": "1Hk1jH71Vf3fafPhSk9avlS_krti1ja6r"
+  "driveId": "1Hk1jH71Vf3fafPhSk9avlS_krti1ja6r",
+  "count": 4,
+  "seats": [
+   {
+    "note": "white shirt, dark beanie",
+    "pos": "back-left"
+   },
+   {
+    "note": "skeleton-print black hoodie",
+    "pos": "back-right"
+   },
+   {
+    "note": "dark top, tongue out",
+    "pos": "front-left"
+   },
+   {
+    "note": "black top, head bowed, partly hidden",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B04",
+  "burstConfidence": "low"
  },
  {
   "id": "p005",
@@ -47,7 +137,20 @@
   "ride": "Rita",
   "originalName": "mouhwekhb9a5etiw0gl191m32tc37qn5xdsgq7rvhjcvqytlu.jpg",
   "drive": "https://drive.google.com/file/d/1A59sjXgX1bXkseO-uqT2WnevpMP68RCs/view?usp=drivesdk",
-  "driveId": "1A59sjXgX1bXkseO-uqT2WnevpMP68RCs"
+  "driveId": "1A59sjXgX1bXkseO-uqT2WnevpMP68RCs",
+  "count": 2,
+  "seats": [
+   {
+    "note": "skeleton-print black hoodie",
+    "pos": "back-left"
+   },
+   {
+    "note": "white shirt, dark beanie",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B04",
+  "burstConfidence": "low"
  },
  {
   "id": "p006",
@@ -57,7 +160,14 @@
   "ride": "The Smiler",
   "originalName": "cloudysmiler.jpg",
   "drive": "https://drive.google.com/file/d/1fI0bwh2C1jALR1E9AvjMHHx37H6EujBy/view?usp=drivesdk",
-  "driveId": "1fI0bwh2C1jALR1E9AvjMHHx37H6EujBy"
+  "driveId": "1fI0bwh2C1jALR1E9AvjMHHx37H6EujBy",
+  "count": 1,
+  "seats": [
+   {
+    "note": "white shirt, dark beanie",
+    "pos": "front-left"
+   }
+  ]
  },
  {
   "id": "p007",
@@ -67,7 +177,18 @@
   "ride": "The Smiler",
   "originalName": "smiler.jpg",
   "drive": "https://drive.google.com/file/d/1Nb9MiQAkGPenuxRIvFIAp2rie-T9KrRc/view?usp=drivesdk",
-  "driveId": "1Nb9MiQAkGPenuxRIvFIAp2rie-T9KrRc"
+  "driveId": "1Nb9MiQAkGPenuxRIvFIAp2rie-T9KrRc",
+  "count": 2,
+  "seats": [
+   {
+    "note": "skeleton-print jacket",
+    "pos": "front-left"
+   },
+   {
+    "note": "skeleton-print hoodie",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p008",
@@ -77,7 +198,30 @@
   "ride": "Congo River Rapids",
   "originalName": "2019-10-25-AT-CR-00064.jpg",
   "drive": "https://drive.google.com/file/d/1KijLiNdab93ZVPvmHIVtM1nEiX4ylrS-/view?usp=drivesdk",
-  "driveId": "1KijLiNdab93ZVPvmHIVtM1nEiX4ylrS-"
+  "driveId": "1KijLiNdab93ZVPvmHIVtM1nEiX4ylrS-",
+  "count": 5,
+  "seats": [
+   {
+    "note": "black top, novelty hat, partly visible",
+    "pos": "raft back-left"
+   },
+   {
+    "note": "tan coat, side profile",
+    "pos": "raft left-middle"
+   },
+   {
+    "note": "dark coat, purple beanie, peace signs",
+    "pos": "raft middle"
+   },
+   {
+    "note": "glasses, black hoodie",
+    "pos": "raft back-right"
+   },
+   {
+    "note": "black jacket, head tilted back",
+    "pos": "raft front-right"
+   }
+  ]
  },
  {
   "id": "p009",
@@ -87,7 +231,32 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "2019-10-25-AT-HH-00214.jpg",
   "drive": "https://drive.google.com/file/d/1u5oKXoQifFuks0thJHvyFwMaxDWXCjMs/view?usp=drivesdk",
-  "driveId": "1u5oKXoQifFuks0thJHvyFwMaxDWXCjMs"
+  "driveId": "1u5oKXoQifFuks0thJHvyFwMaxDWXCjMs",
+  "count": 5,
+  "seats": [
+   {
+    "note": "tan coat, holding blaster",
+    "pos": "back-left"
+   },
+   {
+    "note": "black top, novelty hat, holding blaster",
+    "pos": "back-middle"
+   },
+   {
+    "note": "black coat, holding blaster",
+    "pos": "front-left"
+   },
+   {
+    "note": "dark coat, purple-grey beanie, holding blaster",
+    "pos": "front-middle"
+   },
+   {
+    "note": "dark hoodie, holding blaster",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B08",
+  "burstConfidence": "low"
  },
  {
   "id": "p010",
@@ -97,7 +266,32 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "2019-10-25-AT-HH-01808.jpg",
   "drive": "https://drive.google.com/file/d/113o5MnDtBSeD-3Hzjm5RNZ-J2Ct2smUV/view?usp=drivesdk",
-  "driveId": "113o5MnDtBSeD-3Hzjm5RNZ-J2Ct2smUV"
+  "driveId": "113o5MnDtBSeD-3Hzjm5RNZ-J2Ct2smUV",
+  "count": 5,
+  "seats": [
+   {
+    "note": "dark coat, dark beanie, holding blaster",
+    "pos": "back-left"
+   },
+   {
+    "note": "black hoodie, novelty hat, holding blaster",
+    "pos": "back-right"
+   },
+   {
+    "note": "black coat, holding blaster",
+    "pos": "front-left"
+   },
+   {
+    "note": "glasses, tan coat, holding blaster",
+    "pos": "front-middle"
+   },
+   {
+    "note": "dark grey hoodie, holding blaster",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B08",
+  "burstConfidence": "low"
  },
  {
   "id": "p011",
@@ -107,7 +301,18 @@
   "ride": "Galactica",
   "originalName": "2019-10-25-AT-AR-05065.jpg",
   "drive": "https://drive.google.com/file/d/1XX5X_D9SAP2Ml0aZZK44Cm9K0fmgPobN/view?usp=drivesdk",
-  "driveId": "1XX5X_D9SAP2Ml0aZZK44Cm9K0fmgPobN"
+  "driveId": "1XX5X_D9SAP2Ml0aZZK44Cm9K0fmgPobN",
+  "count": 2,
+  "seats": [
+   {
+    "note": "tan-brown jacket",
+    "pos": "left"
+   },
+   {
+    "note": "black top, novelty hat, peace sign",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p012",
@@ -117,7 +322,18 @@
   "ride": "Galactica",
   "originalName": "2019-10-25-AT-AR-05066.jpg",
   "drive": "https://drive.google.com/file/d/17tYSGW_7k3OT5qloWHSSEDVBax1LuWt_/view?usp=drivesdk",
-  "driveId": "17tYSGW_7k3OT5qloWHSSEDVBax1LuWt_"
+  "driveId": "17tYSGW_7k3OT5qloWHSSEDVBax1LuWt_",
+  "count": 2,
+  "seats": [
+   {
+    "note": "dark brown top",
+    "pos": "left"
+   },
+   {
+    "note": "black top",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p013",
@@ -127,7 +343,18 @@
   "ride": "Galactica",
   "originalName": "2019-10-25-AT-AR-05067.jpg",
   "drive": "https://drive.google.com/file/d/1syCEe118J5u_hoJ26X2ADQvLictZ2U-k/view?usp=drivesdk",
-  "driveId": "1syCEe118J5u_hoJ26X2ADQvLictZ2U-k"
+  "driveId": "1syCEe118J5u_hoJ26X2ADQvLictZ2U-k",
+  "count": 2,
+  "seats": [
+   {
+    "note": "dark zip-up top",
+    "pos": "left"
+   },
+   {
+    "note": "black top, dark beanie, face partly shadowed",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p014",
@@ -137,7 +364,18 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "2019-10-25-AT-NE-01225.jpg",
   "drive": "https://drive.google.com/file/d/1CporsOBq6sEB6j_kUFc6PhIZeFFIUcNP/view?usp=drivesdk",
-  "driveId": "1CporsOBq6sEB6j_kUFc6PhIZeFFIUcNP"
+  "driveId": "1CporsOBq6sEB6j_kUFc6PhIZeFFIUcNP",
+  "count": 2,
+  "seats": [
+   {
+    "note": "black hoodie",
+    "pos": "left"
+   },
+   {
+    "note": "dark beanie, dark top",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p015",
@@ -147,7 +385,18 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "2019-10-25-AT-NE-01246.jpg",
   "drive": "https://drive.google.com/file/d/1uF-v0y7q3A7GgNQKOBVmgavZHvYVXQ-C/view?usp=drivesdk",
-  "driveId": "1uF-v0y7q3A7GgNQKOBVmgavZHvYVXQ-C"
+  "driveId": "1uF-v0y7q3A7GgNQKOBVmgavZHvYVXQ-C",
+  "count": 2,
+  "seats": [
+   {
+    "note": "dark long-sleeve top",
+    "pos": "left"
+   },
+   {
+    "note": "black hooded top, fingerless gloves, hands up",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p016",
@@ -157,7 +406,22 @@
   "ride": "Rita",
   "originalName": "2019-10-25-AT-RI-01555.jpg",
   "drive": "https://drive.google.com/file/d/1GhoqZ7IaFrEabkjYVIAoCFu2TqIxPyfx/view?usp=drivesdk",
-  "driveId": "1GhoqZ7IaFrEabkjYVIAoCFu2TqIxPyfx"
+  "driveId": "1GhoqZ7IaFrEabkjYVIAoCFu2TqIxPyfx",
+  "count": 3,
+  "seats": [
+   {
+    "note": "tan coat",
+    "pos": "back-left"
+   },
+   {
+    "note": "black top, novelty hat",
+    "pos": "back-right"
+   },
+   {
+    "note": "only top of head visible",
+    "pos": "front-middle"
+   }
+  ]
  },
  {
   "id": "p017",
@@ -167,7 +431,18 @@
   "ride": "Rita",
   "originalName": "2019-10-25-AT-RI-01556.jpg",
   "drive": "https://drive.google.com/file/d/1S5GDnHOg34NLOcJlw85pjlz9YB3OAq9v/view?usp=drivesdk",
-  "driveId": "1S5GDnHOg34NLOcJlw85pjlz9YB3OAq9v"
+  "driveId": "1S5GDnHOg34NLOcJlw85pjlz9YB3OAq9v",
+  "count": 2,
+  "seats": [
+   {
+    "note": "dark long-sleeve top",
+    "pos": "back-right"
+   },
+   {
+    "note": "only back of head visible",
+    "pos": "front-middle"
+   }
+  ]
  },
  {
   "id": "p018",
@@ -177,7 +452,22 @@
   "ride": "Rita",
   "originalName": "2019-10-25-AT-RI-01557.jpg",
   "drive": "https://drive.google.com/file/d/1ZJiXbfBsJhAZDx504nr57Y4pt_jYN9V9/view?usp=drivesdk",
-  "driveId": "1ZJiXbfBsJhAZDx504nr57Y4pt_jYN9V9"
+  "driveId": "1ZJiXbfBsJhAZDx504nr57Y4pt_jYN9V9",
+  "count": 3,
+  "seats": [
+   {
+    "note": "black hoodie",
+    "pos": "front-left"
+   },
+   {
+    "note": "light-coloured top, hands raised, partly hidden",
+    "pos": "back-middle"
+   },
+   {
+    "note": "black jacket, long hair",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p019",
@@ -187,7 +477,20 @@
   "ride": "Runaway Mine Train",
   "originalName": "2019-10-25-AT-MT-01809.jpg",
   "drive": "https://drive.google.com/file/d/19HJ-c3IcjsHkfWMnCvvOvTyUXy-F6-vx/view?usp=drivesdk",
-  "driveId": "19HJ-c3IcjsHkfWMnCvvOvTyUXy-F6-vx"
+  "driveId": "19HJ-c3IcjsHkfWMnCvvOvTyUXy-F6-vx",
+  "count": 2,
+  "seats": [
+   {
+    "note": "black hoodie, waving",
+    "pos": "left"
+   },
+   {
+    "note": "dark coat, dark beanie, tongue out",
+    "pos": "right"
+   }
+  ],
+  "burst": "B17",
+  "burstConfidence": "high"
  },
  {
   "id": "p020",
@@ -197,7 +500,28 @@
   "ride": "Runaway Mine Train",
   "originalName": "2019-10-25-AT-MT-01810.jpg",
   "drive": "https://drive.google.com/file/d/1k8dy3xZMHkYK-i4fSyWrL_Cb92gH5_Vj/view?usp=drivesdk",
-  "driveId": "1k8dy3xZMHkYK-i4fSyWrL_Cb92gH5_Vj"
+  "driveId": "1k8dy3xZMHkYK-i4fSyWrL_Cb92gH5_Vj",
+  "count": 4,
+  "seats": [
+   {
+    "note": "orange top, grey trousers, only partly visible",
+    "pos": "back-left"
+   },
+   {
+    "note": "dark brown top",
+    "pos": "middle-left"
+   },
+   {
+    "note": "glasses, tan coat, waving",
+    "pos": "back-right"
+   },
+   {
+    "note": "black hoodie, novelty hat",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B18",
+  "burstConfidence": "high"
  },
  {
   "id": "p021",
@@ -207,7 +531,20 @@
   "ride": "Runaway Mine Train",
   "originalName": "2019-10-25-AT-MT-01821.jpg",
   "drive": "https://drive.google.com/file/d/1XGEJwGbBZj6C1u1ZDf9Fv8xIAB6dXbKi/view?usp=drivesdk",
-  "driveId": "1XGEJwGbBZj6C1u1ZDf9Fv8xIAB6dXbKi"
+  "driveId": "1XGEJwGbBZj6C1u1ZDf9Fv8xIAB6dXbKi",
+  "count": 2,
+  "seats": [
+   {
+    "note": "black hoodie, head down",
+    "pos": "left"
+   },
+   {
+    "note": "light and dark jacket, dark beanie, hands up",
+    "pos": "right"
+   }
+  ],
+  "burst": "B17",
+  "burstConfidence": "high"
  },
  {
   "id": "p022",
@@ -217,7 +554,28 @@
   "ride": "Runaway Mine Train",
   "originalName": "2019-10-25-AT-MT-01822.jpg",
   "drive": "https://drive.google.com/file/d/1TrZUpzvrqIQ__oLRcUmg1nXkXNPbHRVZ/view?usp=drivesdk",
-  "driveId": "1TrZUpzvrqIQ__oLRcUmg1nXkXNPbHRVZ"
+  "driveId": "1TrZUpzvrqIQ__oLRcUmg1nXkXNPbHRVZ",
+  "count": 4,
+  "seats": [
+   {
+    "note": "orange top, grey trousers, only partly visible",
+    "pos": "back-left"
+   },
+   {
+    "note": "dark brown top, tongue out",
+    "pos": "middle-left"
+   },
+   {
+    "note": "glasses, tan coat",
+    "pos": "back-right"
+   },
+   {
+    "note": "black hoodie, novelty hat, waving",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B18",
+  "burstConfidence": "high"
  },
  {
   "id": "p023",
@@ -227,7 +585,18 @@
   "ride": "Spinball Whizzer",
   "originalName": "2019-10-25-AT-SW-02420.jpg",
   "drive": "https://drive.google.com/file/d/1wSNOMlDG3kadoAhyFUgjJHabP1fgO_bZ/view?usp=drivesdk",
-  "driveId": "1wSNOMlDG3kadoAhyFUgjJHabP1fgO_bZ"
+  "driveId": "1wSNOMlDG3kadoAhyFUgjJHabP1fgO_bZ",
+  "count": 2,
+  "seats": [
+   {
+    "note": "black hoodie, novelty hat, fingerless gloves",
+    "pos": "left"
+   },
+   {
+    "note": "tan coat",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p024",
@@ -237,7 +606,15 @@
   "ride": "Spinball Whizzer",
   "originalName": "2019-10-25-AT-SW-02421.jpg",
   "drive": "https://drive.google.com/file/d/1fd2g5K67KdeOGond7L6eiPEe9Ky9WYaM/view?usp=drivesdk",
-  "driveId": "1fd2g5K67KdeOGond7L6eiPEe9Ky9WYaM"
+  "driveId": "1fd2g5K67KdeOGond7L6eiPEe9Ky9WYaM",
+  "count": 1,
+  "countNote": "plus one more partly visible behind the car",
+  "seats": [
+   {
+    "note": "dark jacket, tan trousers, thumbs up",
+    "pos": "front-left"
+   }
+  ]
  },
  {
   "id": "p025",
@@ -247,7 +624,14 @@
   "ride": "Spinball Whizzer",
   "originalName": "2019-10-25-AT-SW-02423.jpg",
   "drive": "https://drive.google.com/file/d/1MC0xM5k3UqsCI7LhzkWeIPZftN2I7qNP/view?usp=drivesdk",
-  "driveId": "1MC0xM5k3UqsCI7LhzkWeIPZftN2I7qNP"
+  "driveId": "1MC0xM5k3UqsCI7LhzkWeIPZftN2I7qNP",
+  "count": 1,
+  "seats": [
+   {
+    "note": "dark top, side profile",
+    "pos": "back-left"
+   }
+  ]
  },
  {
   "id": "p026",
@@ -257,7 +641,18 @@
   "ride": "Spinball Whizzer",
   "originalName": "2019-10-25-AT-SW-02424.jpg",
   "drive": "https://drive.google.com/file/d/1FiaYG8NZrzIacHGWZo4iGamVV6mrph2g/view?usp=drivesdk",
-  "driveId": "1FiaYG8NZrzIacHGWZo4iGamVV6mrph2g"
+  "driveId": "1FiaYG8NZrzIacHGWZo4iGamVV6mrph2g",
+  "count": 2,
+  "seats": [
+   {
+    "note": "dark coat, face partly covered",
+    "pos": "left"
+   },
+   {
+    "note": "black zip-up top",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p027",
@@ -267,7 +662,23 @@
   "ride": "TH13TEEN",
   "originalName": "2019-10-25-AT-TH-01664.jpg",
   "drive": "https://drive.google.com/file/d/1fgXLlJ-zr5gTCyxYD5RRF9Z3gcC-vHfe/view?usp=drivesdk",
-  "driveId": "1fgXLlJ-zr5gTCyxYD5RRF9Z3gcC-vHfe"
+  "driveId": "1fgXLlJ-zr5gTCyxYD5RRF9Z3gcC-vHfe",
+  "count": 3,
+  "countNote": "plus more in background",
+  "seats": [
+   {
+    "note": "black hoodie",
+    "pos": "front-left"
+   },
+   {
+    "note": "grey hoodie, partly visible",
+    "pos": "back-left"
+   },
+   {
+    "note": "black and white top, arm raised, partly hidden",
+    "pos": "middle-right"
+   }
+  ]
  },
  {
   "id": "p028",
@@ -277,7 +688,19 @@
   "ride": "Wicker Man",
   "originalName": "2019-10-25-AT-WM-03654.jpg",
   "drive": "https://drive.google.com/file/d/1NBT0meAk2QPnqcALJjPZc7C4bkpFCIhw/view?usp=drivesdk",
-  "driveId": "1NBT0meAk2QPnqcALJjPZc7C4bkpFCIhw"
+  "driveId": "1NBT0meAk2QPnqcALJjPZc7C4bkpFCIhw",
+  "count": 2,
+  "countNote": "plus more in background",
+  "seats": [
+   {
+    "note": "black hoodie, novelty hat",
+    "pos": "front-left"
+   },
+   {
+    "note": "black leather-look jacket, thumbs up",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p029",
@@ -287,7 +710,19 @@
   "ride": "Wicker Man",
   "originalName": "2019-10-25-AT-WM-03655.jpg",
   "drive": "https://drive.google.com/file/d/12NJbXuFk6bLYnevXVIQE_rLrX8YXPamx/view?usp=drivesdk",
-  "driveId": "12NJbXuFk6bLYnevXVIQE_rLrX8YXPamx"
+  "driveId": "12NJbXuFk6bLYnevXVIQE_rLrX8YXPamx",
+  "count": 2,
+  "countNote": "plus more in background",
+  "seats": [
+   {
+    "note": "tan coat, hand to forehead",
+    "pos": "front-left"
+   },
+   {
+    "note": "grey sweatshirt with dark text band",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p030",
@@ -297,7 +732,19 @@
   "ride": "Wicker Man",
   "originalName": "2019-10-25-AT-WM-03656.jpg",
   "drive": "https://drive.google.com/file/d/1r3t_-PD3Cn2dFVP4HuMwHK43UpmrVOcn/view?usp=drivesdk",
-  "driveId": "1r3t_-PD3Cn2dFVP4HuMwHK43UpmrVOcn"
+  "driveId": "1r3t_-PD3Cn2dFVP4HuMwHK43UpmrVOcn",
+  "count": 2,
+  "countNote": "plus more in background",
+  "seats": [
+   {
+    "note": "black hoodie",
+    "pos": "front-left"
+   },
+   {
+    "note": "black and white jacket, dark beanie, hands up",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p031",
@@ -307,7 +754,34 @@
   "ride": "Congo River Rapids",
   "originalName": "IMG_9150.jpg",
   "drive": "https://drive.google.com/file/d/1Ggc7d7LQOc6xdt6Kn6bT34L3L3KNBMsS/view?usp=drivesdk",
-  "driveId": "1Ggc7d7LQOc6xdt6Kn6bT34L3L3KNBMsS"
+  "driveId": "1Ggc7d7LQOc6xdt6Kn6bT34L3L3KNBMsS",
+  "count": 6,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "glasses, white shirt, dark jacket"
+   },
+   {
+    "pos": "back-middle-left",
+    "note": "olive/tan jacket"
+   },
+   {
+    "pos": "back-middle-right",
+    "note": "glasses, grey top, arm raised"
+   },
+   {
+    "pos": "back-right",
+    "note": "dark top, hand raised"
+   },
+   {
+    "pos": "front-middle",
+    "note": "pink jacket"
+   },
+   {
+    "pos": "front-left",
+    "note": "dark long-sleeve top, glasses, arm extended"
+   }
+  ]
  },
  {
   "id": "p032",
@@ -317,7 +791,34 @@
   "ride": "Congo River Rapids",
   "originalName": "IMG_9163.jpg",
   "drive": "https://drive.google.com/file/d/1HkHjXRdZD6udPAsQqLCiTkXlQMpQA_Rd/view?usp=drivesdk",
-  "driveId": "1HkHjXRdZD6udPAsQqLCiTkXlQMpQA_Rd"
+  "driveId": "1HkHjXRdZD6udPAsQqLCiTkXlQMpQA_Rd",
+  "count": 6,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "green/olive jacket"
+   },
+   {
+    "pos": "front-left",
+    "note": "black jacket"
+   },
+   {
+    "pos": "back-middle",
+    "note": "glasses, dark vest, arm raised"
+   },
+   {
+    "pos": "back-right",
+    "note": "glasses, dark jacket"
+   },
+   {
+    "pos": "front-right-middle",
+    "note": "pink jacket"
+   },
+   {
+    "pos": "front-right",
+    "note": "dark green hoodie"
+   }
+  ]
  },
  {
   "id": "p033",
@@ -327,7 +828,34 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "IMG_9146.jpg",
   "drive": "https://drive.google.com/file/d/1jBTSDFYWJAqzIRw1hyccK4BS4T6Y4yU7/view?usp=drivesdk",
-  "driveId": "1jBTSDFYWJAqzIRw1hyccK4BS4T6Y4yU7"
+  "driveId": "1jBTSDFYWJAqzIRw1hyccK4BS4T6Y4yU7",
+  "count": 6,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "blue t-shirt"
+   },
+   {
+    "pos": "front-middle",
+    "note": "black top"
+   },
+   {
+    "pos": "front-right",
+    "note": "black top"
+   },
+   {
+    "pos": "back-left",
+    "note": "light grey top, glasses"
+   },
+   {
+    "pos": "back-middle",
+    "note": "brown jacket, glasses"
+   },
+   {
+    "pos": "back-right",
+    "note": "green top"
+   }
+  ]
  },
  {
   "id": "p034",
@@ -337,7 +865,34 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "IMG_9166.jpg",
   "drive": "https://drive.google.com/file/d/1A_Qg-xQT4yQzYyXO7ZZPp28L7DIzDn2t/view?usp=drivesdk",
-  "driveId": "1A_Qg-xQT4yQzYyXO7ZZPp28L7DIzDn2t"
+  "driveId": "1A_Qg-xQT4yQzYyXO7ZZPp28L7DIzDn2t",
+  "count": 6,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "black jacket"
+   },
+   {
+    "pos": "front-middle",
+    "note": "green sweatshirt with white text, glasses"
+   },
+   {
+    "pos": "front-right",
+    "note": "red jacket"
+   },
+   {
+    "pos": "back-left",
+    "note": "grey puffer jacket, glasses"
+   },
+   {
+    "pos": "back-middle",
+    "note": "tan top, teal scarf"
+   },
+   {
+    "pos": "back-right",
+    "note": "maroon hood up"
+   }
+  ]
  },
  {
   "id": "p035",
@@ -347,7 +902,34 @@
   "ride": "Extras \u2014 around the park",
   "originalName": "PXL_20231005_174307184.jpg",
   "drive": "https://drive.google.com/file/d/1OkzRaFHewNgF_i91mivYBM2P6-3zjZwA/view?usp=drivesdk",
-  "driveId": "1OkzRaFHewNgF_i91mivYBM2P6-3zjZwA"
+  "driveId": "1OkzRaFHewNgF_i91mivYBM2P6-3zjZwA",
+  "count": 6,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "glasses, beard, maroon shirt"
+   },
+   {
+    "pos": "front-right",
+    "note": "dark top"
+   },
+   {
+    "pos": "middle",
+    "note": "blonde hair, black top"
+   },
+   {
+    "pos": "back-left",
+    "note": "glasses, dark hoodie"
+   },
+   {
+    "pos": "back-middle",
+    "note": "dark top, partly hidden"
+   },
+   {
+    "pos": "back-right",
+    "note": "glasses, beard, light blue shirt"
+   }
+  ]
  },
  {
   "id": "p036",
@@ -357,7 +939,16 @@
   "ride": "Galactica",
   "originalName": "IMG_9153.jpg",
   "drive": "https://drive.google.com/file/d/1bNjh8AB00lvd6DEPE6ICRVsQwvGrQwyT/view?usp=drivesdk",
-  "driveId": "1bNjh8AB00lvd6DEPE6ICRVsQwvGrQwyT"
+  "driveId": "1bNjh8AB00lvd6DEPE6ICRVsQwvGrQwyT",
+  "count": 1,
+  "seats": [
+   {
+    "pos": "right",
+    "note": "grey polo shirt, beard"
+   }
+  ],
+  "burst": "B32",
+  "burstConfidence": "low"
  },
  {
   "id": "p037",
@@ -367,7 +958,20 @@
   "ride": "Galactica",
   "originalName": "IMG_9154.jpg",
   "drive": "https://drive.google.com/file/d/17ZU7Y3bcokPE0ec50gPJI4U0B9Gejws0/view?usp=drivesdk",
-  "driveId": "17ZU7Y3bcokPE0ec50gPJI4U0B9Gejws0"
+  "driveId": "17ZU7Y3bcokPE0ec50gPJI4U0B9Gejws0",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "red jacket"
+   },
+   {
+    "pos": "right",
+    "note": "white shirt, dark jacket, beard"
+   }
+  ],
+  "burst": "B32",
+  "burstConfidence": "low"
  },
  {
   "id": "p038",
@@ -377,7 +981,20 @@
   "ride": "Galactica",
   "originalName": "IMG_9164.jpg",
   "drive": "https://drive.google.com/file/d/117mpqNFCIQU1SKltvmF_psQhJNTdvuXc/view?usp=drivesdk",
-  "driveId": "117mpqNFCIQU1SKltvmF_psQhJNTdvuXc"
+  "driveId": "117mpqNFCIQU1SKltvmF_psQhJNTdvuXc",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "black t-shirt with pale logo"
+   },
+   {
+    "pos": "right",
+    "note": "black hoodie with white text"
+   }
+  ],
+  "burst": "B33",
+  "burstConfidence": "low"
  },
  {
   "id": "p039",
@@ -387,7 +1004,20 @@
   "ride": "Galactica",
   "originalName": "IMG_9165.jpg",
   "drive": "https://drive.google.com/file/d/1FAqqCC6v4lsrSltYZ__UuePlTW0uqGZt/view?usp=drivesdk",
-  "driveId": "1FAqqCC6v4lsrSltYZ__UuePlTW0uqGZt"
+  "driveId": "1FAqqCC6v4lsrSltYZ__UuePlTW0uqGZt",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "olive/tan colour-block top"
+   },
+   {
+    "pos": "right",
+    "note": "dark top, beard"
+   }
+  ],
+  "burst": "B33",
+  "burstConfidence": "low"
  },
  {
   "id": "p040",
@@ -397,7 +1027,18 @@
   "ride": "Oblivion",
   "originalName": "IMG_9130.jpg",
   "drive": "https://drive.google.com/file/d/1EPdoP_PhgOVE_VVAdvS_48mhsySUOz23/view?usp=drivesdk",
-  "driveId": "1EPdoP_PhgOVE_VVAdvS_48mhsySUOz23"
+  "driveId": "1EPdoP_PhgOVE_VVAdvS_48mhsySUOz23",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "pink jacket"
+   },
+   {
+    "pos": "right",
+    "note": "black hoodie with white text"
+   }
+  ]
  },
  {
   "id": "p041",
@@ -407,7 +1048,14 @@
   "ride": "Oblivion",
   "originalName": "IMG_9138.jpg",
   "drive": "https://drive.google.com/file/d/15NBAwdKCdGpNjFzxhKkTaOGpWz98X9bS/view?usp=drivesdk",
-  "driveId": "15NBAwdKCdGpNjFzxhKkTaOGpWz98X9bS"
+  "driveId": "15NBAwdKCdGpNjFzxhKkTaOGpWz98X9bS",
+  "count": 1,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "green t-shirt"
+   }
+  ]
  },
  {
   "id": "p042",
@@ -417,7 +1065,18 @@
   "ride": "Oblivion",
   "originalName": "IMG_9139.jpg",
   "drive": "https://drive.google.com/file/d/1Bcor3w1CQ8fKpzWtjd2SkBOh-xVdwk-I/view?usp=drivesdk",
-  "driveId": "1Bcor3w1CQ8fKpzWtjd2SkBOh-xVdwk-I"
+  "driveId": "1Bcor3w1CQ8fKpzWtjd2SkBOh-xVdwk-I",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "grey top, glasses"
+   },
+   {
+    "pos": "right",
+    "note": "black top, glasses, beard"
+   }
+  ]
  },
  {
   "id": "p043",
@@ -427,7 +1086,18 @@
   "ride": "Oblivion",
   "originalName": "IMG_9140.jpg",
   "drive": "https://drive.google.com/file/d/1KVAijMqYrG4-Xn1DxACQR6hRmpwkGNK8/view?usp=drivesdk",
-  "driveId": "1KVAijMqYrG4-Xn1DxACQR6hRmpwkGNK8"
+  "driveId": "1KVAijMqYrG4-Xn1DxACQR6hRmpwkGNK8",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "black top"
+   },
+   {
+    "pos": "right",
+    "note": "pink jacket"
+   }
+  ]
  },
  {
   "id": "p044",
@@ -437,7 +1107,18 @@
   "ride": "Oblivion",
   "originalName": "IMG_9155.jpg",
   "drive": "https://drive.google.com/file/d/1XnWWomJREuN1OMqCjeSL7zo7TTMLlY7a/view?usp=drivesdk",
-  "driveId": "1XnWWomJREuN1OMqCjeSL7zo7TTMLlY7a"
+  "driveId": "1XnWWomJREuN1OMqCjeSL7zo7TTMLlY7a",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "white shirt"
+   },
+   {
+    "pos": "right",
+    "note": "black t-shirt"
+   }
+  ]
  },
  {
   "id": "p045",
@@ -447,7 +1128,18 @@
   "ride": "Oblivion",
   "originalName": "IMG_9156.jpg",
   "drive": "https://drive.google.com/file/d/1omAagNkMfI7aIF_Z2QH9k9huJ3Lh_ATJ/view?usp=drivesdk",
-  "driveId": "1omAagNkMfI7aIF_Z2QH9k9huJ3Lh_ATJ"
+  "driveId": "1omAagNkMfI7aIF_Z2QH9k9huJ3Lh_ATJ",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "black top, glasses, beard"
+   },
+   {
+    "pos": "right",
+    "note": "black t-shirt with white logo"
+   }
+  ]
  },
  {
   "id": "p046",
@@ -457,7 +1149,39 @@
   "ride": "Oblivion",
   "originalName": "Screenshot_20231005_155607_Gallery.jpg",
   "drive": "https://drive.google.com/file/d/1ZsahZEm48dV8hM_BepDe_vzRe-B1FHxG/view?usp=drivesdk",
-  "driveId": "1ZsahZEm48dV8hM_BepDe_vzRe-B1FHxG"
+  "driveId": "1ZsahZEm48dV8hM_BepDe_vzRe-B1FHxG",
+  "count": 7,
+  "countNote": "plus more in background",
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "light top"
+   },
+   {
+    "pos": "front-middle-left",
+    "note": "dark top"
+   },
+   {
+    "pos": "front-middle",
+    "note": "dark top"
+   },
+   {
+    "pos": "front-middle-right",
+    "note": "red jacket"
+   },
+   {
+    "pos": "front-right-middle",
+    "note": "black hoodie with white text"
+   },
+   {
+    "pos": "front-right",
+    "note": "black top, glasses"
+   },
+   {
+    "pos": "far-right",
+    "note": "dark top, beard, arm raised"
+   }
+  ]
  },
  {
   "id": "p047",
@@ -467,7 +1191,24 @@
   "ride": "Rita",
   "originalName": "IMG_9141.jpg",
   "drive": "https://drive.google.com/file/d/1wkMrCCPf7M03xdow3esRsTGZDfefSmxf/view?usp=drivesdk",
-  "driveId": "1wkMrCCPf7M03xdow3esRsTGZDfefSmxf"
+  "driveId": "1wkMrCCPf7M03xdow3esRsTGZDfefSmxf",
+  "count": 3,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "black top"
+   },
+   {
+    "pos": "back-right",
+    "note": "grey t-shirt, beard"
+   },
+   {
+    "pos": "front-middle",
+    "note": "dark top"
+   }
+  ],
+  "burst": "B41",
+  "burstConfidence": "low"
  },
  {
   "id": "p048",
@@ -477,7 +1218,28 @@
   "ride": "Rita",
   "originalName": "IMG_9142.jpg",
   "drive": "https://drive.google.com/file/d/1txUW499a3GenrDF2WHGmW8-2ZC_2UCUF/view?usp=drivesdk",
-  "driveId": "1txUW499a3GenrDF2WHGmW8-2ZC_2UCUF"
+  "driveId": "1txUW499a3GenrDF2WHGmW8-2ZC_2UCUF",
+  "count": 4,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "green t-shirt"
+   },
+   {
+    "pos": "back-middle",
+    "note": "grey t-shirt, partly cropped"
+   },
+   {
+    "pos": "back-right",
+    "note": "black top, beard"
+   },
+   {
+    "pos": "front-right",
+    "note": "blonde hair, head lowered, partly hidden"
+   }
+  ],
+  "burst": "B41",
+  "burstConfidence": "low"
  },
  {
   "id": "p049",
@@ -487,7 +1249,24 @@
   "ride": "Rita",
   "originalName": "IMG_9157.jpg",
   "drive": "https://drive.google.com/file/d/1MPr5rI6YQJrh6W6yWmtfOgNfnjwJEYCB/view?usp=drivesdk",
-  "driveId": "1MPr5rI6YQJrh6W6yWmtfOgNfnjwJEYCB"
+  "driveId": "1MPr5rI6YQJrh6W6yWmtfOgNfnjwJEYCB",
+  "count": 3,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "black hoodie with white text"
+   },
+   {
+    "pos": "back-right",
+    "note": "pink jacket"
+   },
+   {
+    "pos": "front-middle",
+    "note": "dark top, hand raised"
+   }
+  ],
+  "burst": "B42",
+  "burstConfidence": "low"
  },
  {
   "id": "p050",
@@ -497,7 +1276,28 @@
   "ride": "Rita",
   "originalName": "IMG_9158.jpg",
   "drive": "https://drive.google.com/file/d/1z0bQxdVktTqtArAWY_j-L0_HOv5dhPBJ/view?usp=drivesdk",
-  "driveId": "1z0bQxdVktTqtArAWY_j-L0_HOv5dhPBJ"
+  "driveId": "1z0bQxdVktTqtArAWY_j-L0_HOv5dhPBJ",
+  "count": 4,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "dark t-shirt, hands raised"
+   },
+   {
+    "pos": "back-middle",
+    "note": "pink jacket, partly visible"
+   },
+   {
+    "pos": "back-right",
+    "note": "brown jacket, beard"
+   },
+   {
+    "pos": "front-right",
+    "note": "dark top"
+   }
+  ],
+  "burst": "B42",
+  "burstConfidence": "low"
  },
  {
   "id": "p051",
@@ -507,7 +1307,32 @@
   "ride": "Runaway Mine Train",
   "originalName": "IMG_9151.jpg",
   "drive": "https://drive.google.com/file/d/16o6PiWQATJZQBApsl1BDD7w64FYcdZur/view?usp=drivesdk",
-  "driveId": "16o6PiWQATJZQBApsl1BDD7w64FYcdZur"
+  "driveId": "16o6PiWQATJZQBApsl1BDD7w64FYcdZur",
+  "count": 5,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "grey t-shirt, glasses"
+   },
+   {
+    "pos": "back-middle",
+    "note": "black top, arms raised"
+   },
+   {
+    "pos": "front-middle",
+    "note": "pink jacket"
+   },
+   {
+    "pos": "front-right-middle",
+    "note": "maroon/brown jacket, glasses"
+   },
+   {
+    "pos": "front-right",
+    "note": "dark top, partly visible"
+   }
+  ],
+  "burst": "B43",
+  "burstConfidence": "low"
  },
  {
   "id": "p052",
@@ -517,7 +1342,32 @@
   "ride": "Runaway Mine Train",
   "originalName": "IMG_9152.jpg",
   "drive": "https://drive.google.com/file/d/1pxCiRVvjgGj3LQ9ciBV3zLXpQVfmN9pf/view?usp=drivesdk",
-  "driveId": "1pxCiRVvjgGj3LQ9ciBV3zLXpQVfmN9pf"
+  "driveId": "1pxCiRVvjgGj3LQ9ciBV3zLXpQVfmN9pf",
+  "count": 5,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "white shirt, glasses"
+   },
+   {
+    "pos": "front-middle",
+    "note": "tan/brown jacket"
+   },
+   {
+    "pos": "front-right",
+    "note": "black-and-white top"
+   },
+   {
+    "pos": "back-left",
+    "note": "maroon top, partly visible"
+   },
+   {
+    "pos": "back-middle",
+    "note": "grey top, partly cropped"
+   }
+  ],
+  "burst": "B43",
+  "burstConfidence": "low"
  },
  {
   "id": "p053",
@@ -527,7 +1377,29 @@
   "ride": "Runaway Mine Train",
   "originalName": "IMG_9159.jpg",
   "drive": "https://drive.google.com/file/d/1nKKfZRtdea6siafRRfHUiOs_MqsM908g/view?usp=drivesdk",
-  "driveId": "1nKKfZRtdea6siafRRfHUiOs_MqsM908g"
+  "driveId": "1nKKfZRtdea6siafRRfHUiOs_MqsM908g",
+  "count": 4,
+  "countNote": "plus a partly visible rider at back-left",
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "dark navy top"
+   },
+   {
+    "pos": "front-middle",
+    "note": "brown jacket, glasses"
+   },
+   {
+    "pos": "back-right",
+    "note": "dark brown top, hands raised"
+   },
+   {
+    "pos": "back-middle",
+    "note": "dark top, partly visible"
+   }
+  ],
+  "burst": "B44",
+  "burstConfidence": "high"
  },
  {
   "id": "p054",
@@ -537,7 +1409,32 @@
   "ride": "Runaway Mine Train",
   "originalName": "IMG_9160.jpg",
   "drive": "https://drive.google.com/file/d/11_zUdy5dFabwjm5nJpidZha61AhgvccX/view?usp=drivesdk",
-  "driveId": "11_zUdy5dFabwjm5nJpidZha61AhgvccX"
+  "driveId": "11_zUdy5dFabwjm5nJpidZha61AhgvccX",
+  "count": 5,
+  "seats": [
+   {
+    "pos": "back-left",
+    "note": "tan/olive jacket"
+   },
+   {
+    "pos": "back-middle",
+    "note": "light grey jacket, glasses"
+   },
+   {
+    "pos": "front-middle",
+    "note": "black hoodie with white text"
+   },
+   {
+    "pos": "front-right",
+    "note": "pink jacket, arm raised"
+   },
+   {
+    "pos": "front-left",
+    "note": "grey sleeve, partly visible arm only"
+   }
+  ],
+  "burst": "B45",
+  "burstConfidence": "high"
  },
  {
   "id": "p055",
@@ -547,7 +1444,29 @@
   "ride": "Runaway Mine Train",
   "originalName": "IMG_9161.jpg",
   "drive": "https://drive.google.com/file/d/1wRRtktTTNiCi2jGKp8qYYYJuP6PQrI3V/view?usp=drivesdk",
-  "driveId": "1wRRtktTTNiCi2jGKp8qYYYJuP6PQrI3V"
+  "driveId": "1wRRtktTTNiCi2jGKp8qYYYJuP6PQrI3V",
+  "count": 4,
+  "countNote": "plus a partly visible rider at back-left",
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "dark navy top"
+   },
+   {
+    "pos": "front-middle",
+    "note": "brown jacket, glasses"
+   },
+   {
+    "pos": "back-right",
+    "note": "brown top, hand on forehead"
+   },
+   {
+    "pos": "back-left",
+    "note": "dark clothing, partly visible"
+   }
+  ],
+  "burst": "B44",
+  "burstConfidence": "high"
  },
  {
   "id": "p056",
@@ -557,7 +1476,32 @@
   "ride": "Runaway Mine Train",
   "originalName": "IMG_9162.jpg",
   "drive": "https://drive.google.com/file/d/1LDIIUhgAHicEw5WRMkxhmtmewthKPYad/view?usp=drivesdk",
-  "driveId": "1LDIIUhgAHicEw5WRMkxhmtmewthKPYad"
+  "driveId": "1LDIIUhgAHicEw5WRMkxhmtmewthKPYad",
+  "count": 5,
+  "seats": [
+   {
+    "pos": "back-middle",
+    "note": "light grey jacket, glasses"
+   },
+   {
+    "pos": "front-middle",
+    "note": "black hoodie with white text"
+   },
+   {
+    "pos": "front-right",
+    "note": "pink jacket, hands raised"
+   },
+   {
+    "pos": "front-left",
+    "note": "tan/olive jacket"
+   },
+   {
+    "pos": "back-left",
+    "note": "grey sleeve, partly visible arm only"
+   }
+  ],
+  "burst": "B45",
+  "burstConfidence": "high"
  },
  {
   "id": "p057",
@@ -567,7 +1511,28 @@
   "ride": "Spinball Whizzer",
   "originalName": "IMG_9143.jpg",
   "drive": "https://drive.google.com/file/d/1jFG0fwYIgNy5hm-F_300F8cf_pOLXEo7/view?usp=drivesdk",
-  "driveId": "1jFG0fwYIgNy5hm-F_300F8cf_pOLXEo7"
+  "driveId": "1jFG0fwYIgNy5hm-F_300F8cf_pOLXEo7",
+  "count": 4,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "white t-shirt, arm raised"
+   },
+   {
+    "pos": "front-middle",
+    "note": "black top, hands raised"
+   },
+   {
+    "pos": "back-middle",
+    "note": "dark top, partly visible"
+   },
+   {
+    "pos": "back-right",
+    "note": "dark top, glasses"
+   }
+  ],
+  "burst": "B46",
+  "burstConfidence": "low"
  },
  {
   "id": "p058",
@@ -577,7 +1542,28 @@
   "ride": "Spinball Whizzer",
   "originalName": "IMG_9144.jpg",
   "drive": "https://drive.google.com/file/d/1l8G47PAJQrKhbcgq0VnF4ROBTu-RxSjB/view?usp=drivesdk",
-  "driveId": "1l8G47PAJQrKhbcgq0VnF4ROBTu-RxSjB"
+  "driveId": "1l8G47PAJQrKhbcgq0VnF4ROBTu-RxSjB",
+  "count": 4,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "maroon/brown jacket, glasses"
+   },
+   {
+    "pos": "front-right",
+    "note": "dark grey top"
+   },
+   {
+    "pos": "back-left",
+    "note": "white t-shirt, partly visible, arm raised"
+   },
+   {
+    "pos": "back-right",
+    "note": "dark top, partly visible"
+   }
+  ],
+  "burst": "B46",
+  "burstConfidence": "low"
  },
  {
   "id": "p059",
@@ -587,7 +1573,28 @@
   "ride": "Spinball Whizzer",
   "originalName": "IMG_9145.jpg",
   "drive": "https://drive.google.com/file/d/17GdeW-N2_aGTLoSMTSiyC4SNuIVQQ5mf/view?usp=drivesdk",
-  "driveId": "17GdeW-N2_aGTLoSMTSiyC4SNuIVQQ5mf"
+  "driveId": "17GdeW-N2_aGTLoSMTSiyC4SNuIVQQ5mf",
+  "count": 4,
+  "seats": [
+   {
+    "pos": "front-right",
+    "note": "white t-shirt"
+   },
+   {
+    "pos": "back-left",
+    "note": "dark grey top, back to camera"
+   },
+   {
+    "pos": "back-middle",
+    "note": "dark top, partly visible"
+   },
+   {
+    "pos": "front-left",
+    "note": "dark sleeve, hands only"
+   }
+  ],
+  "burst": "B46",
+  "burstConfidence": "low"
  },
  {
   "id": "p060",
@@ -597,7 +1604,21 @@
   "ride": "The Smiler",
   "originalName": "IMG_9135.jpg",
   "drive": "https://drive.google.com/file/d/1v6veh5_g2Ko8bSR76QtTv964UBqtkrmY/view?usp=drivesdk",
-  "driveId": "1v6veh5_g2Ko8bSR76QtTv964UBqtkrmY"
+  "driveId": "1v6veh5_g2Ko8bSR76QtTv964UBqtkrmY",
+  "count": 2,
+  "countNote": "plus a partly visible rider at far left",
+  "seats": [
+   {
+    "pos": "left",
+    "note": "black top, glasses, beard"
+   },
+   {
+    "pos": "right",
+    "note": "green t-shirt"
+   }
+  ],
+  "burst": "B47",
+  "burstConfidence": "low"
  },
  {
   "id": "p061",
@@ -607,7 +1628,20 @@
   "ride": "The Smiler",
   "originalName": "IMG_9136.jpg",
   "drive": "https://drive.google.com/file/d/1Hg5ONywpDOPJCrbcE2ARBumI1C1nxoip/view?usp=drivesdk",
-  "driveId": "1Hg5ONywpDOPJCrbcE2ARBumI1C1nxoip"
+  "driveId": "1Hg5ONywpDOPJCrbcE2ARBumI1C1nxoip",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "grey polo shirt, glasses"
+   },
+   {
+    "pos": "right",
+    "note": "red jacket"
+   }
+  ],
+  "burst": "B47",
+  "burstConfidence": "low"
  },
  {
   "id": "p062",
@@ -617,7 +1651,20 @@
   "ride": "The Smiler",
   "originalName": "IMG_9137.jpg",
   "drive": "https://drive.google.com/file/d/1uujmnKAM4BORKSGgQ30mmKA6XsuyVuU7/view?usp=drivesdk",
-  "driveId": "1uujmnKAM4BORKSGgQ30mmKA6XsuyVuU7"
+  "driveId": "1uujmnKAM4BORKSGgQ30mmKA6XsuyVuU7",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "white polo shirt, beard"
+   },
+   {
+    "pos": "right",
+    "note": "black t-shirt with white logo"
+   }
+  ],
+  "burst": "B47",
+  "burstConfidence": "low"
  },
  {
   "id": "p063",
@@ -627,7 +1674,26 @@
   "ride": "Wicker Man",
   "originalName": "IMG_9133.jpg",
   "drive": "https://drive.google.com/file/d/146-3AlNqXm87iKLhFBOMoCQntO2d6UvT/view?usp=drivesdk",
-  "driveId": "146-3AlNqXm87iKLhFBOMoCQntO2d6UvT"
+  "driveId": "146-3AlNqXm87iKLhFBOMoCQntO2d6UvT",
+  "count": 4,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "tan/olive t-shirt, arms raised"
+   },
+   {
+    "pos": "front-right",
+    "note": "black top, arms raised"
+   },
+   {
+    "pos": "back-middle",
+    "note": "grey top, partly visible"
+   },
+   {
+    "pos": "back-left",
+    "note": "dark top, partly visible at edge"
+   }
+  ]
  },
  {
   "id": "p064",
@@ -637,7 +1703,20 @@
   "ride": "Wicker Man",
   "originalName": "IMG_9134.jpg",
   "drive": "https://drive.google.com/file/d/1VPis3iPVl8oHwUEYf7ch8OEJRGoUET9d/view?usp=drivesdk",
-  "driveId": "1VPis3iPVl8oHwUEYf7ch8OEJRGoUET9d"
+  "driveId": "1VPis3iPVl8oHwUEYf7ch8OEJRGoUET9d",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "grey polo shirt, glasses"
+   },
+   {
+    "pos": "right",
+    "note": "pink jacket"
+   }
+  ],
+  "burst": "B49",
+  "burstConfidence": "low"
  },
  {
   "id": "p065",
@@ -647,7 +1726,23 @@
   "ride": "Wicker Man",
   "originalName": "IMG_9147.jpg",
   "drive": "https://drive.google.com/file/d/1jXnzthtyt80OujhdGk2S_xP0GHlZBAm4/view?usp=drivesdk",
-  "driveId": "1jXnzthtyt80OujhdGk2S_xP0GHlZBAm4"
+  "driveId": "1jXnzthtyt80OujhdGk2S_xP0GHlZBAm4",
+  "count": 3,
+  "countNote": "plus arms of riders in the row behind visible at top",
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "maroon/brown jacket, glasses"
+   },
+   {
+    "pos": "front-right",
+    "note": "tan jacket over dark top, hands raised"
+   },
+   {
+    "pos": "back-middle",
+    "note": "dark top, top of head only"
+   }
+  ]
  },
  {
   "id": "p066",
@@ -657,7 +1752,20 @@
   "ride": "Wicker Man",
   "originalName": "IMG_9148.jpg",
   "drive": "https://drive.google.com/file/d/1ojQ1KyvcR1sCNvZqr4pC3A73xVHIwcNs/view?usp=drivesdk",
-  "driveId": "1ojQ1KyvcR1sCNvZqr4pC3A73xVHIwcNs"
+  "driveId": "1ojQ1KyvcR1sCNvZqr4pC3A73xVHIwcNs",
+  "count": 2,
+  "seats": [
+   {
+    "pos": "left",
+    "note": "pink jacket"
+   },
+   {
+    "pos": "right",
+    "note": "grey polo shirt, glasses"
+   }
+  ],
+  "burst": "B49",
+  "burstConfidence": "low"
  },
  {
   "id": "p067",
@@ -667,7 +1775,22 @@
   "ride": "Wicker Man",
   "originalName": "IMG_9149.jpg",
   "drive": "https://drive.google.com/file/d/1Lj1oYK_U3kUJ4nGB87ywZjINr8rTH_FR/view?usp=drivesdk",
-  "driveId": "1Lj1oYK_U3kUJ4nGB87ywZjINr8rTH_FR"
+  "driveId": "1Lj1oYK_U3kUJ4nGB87ywZjINr8rTH_FR",
+  "count": 3,
+  "seats": [
+   {
+    "pos": "front-left",
+    "note": "white shirt, glasses, beard"
+   },
+   {
+    "pos": "front-right",
+    "note": "black top, hands on head"
+   },
+   {
+    "pos": "back-middle",
+    "note": "pink jacket, partly visible, arms only"
+   }
+  ]
  },
  {
   "id": "p068",
@@ -677,7 +1800,34 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "1729015401231.jpg",
   "drive": "https://drive.google.com/file/d/1RY2hc0uH_eXgduq9h8dUKPbB1TSOXkzM/view?usp=drivesdk",
-  "driveId": "1RY2hc0uH_eXgduq9h8dUKPbB1TSOXkzM"
+  "driveId": "1RY2hc0uH_eXgduq9h8dUKPbB1TSOXkzM",
+  "count": 6,
+  "seats": [
+   {
+    "note": "dark coat, mouth open",
+    "pos": "front-left"
+   },
+   {
+    "note": "dark coat, plaid scarf, holding yellow item",
+    "pos": "front-middle"
+   },
+   {
+    "note": "green hoodie with '98' print, long brown hair",
+    "pos": "front-right"
+   },
+   {
+    "note": "dark top",
+    "pos": "back-left"
+   },
+   {
+    "note": "glasses, dark top, beard",
+    "pos": "back-middle"
+   },
+   {
+    "note": "dark jacket, mouth open",
+    "pos": "back-right"
+   }
+  ]
  },
  {
   "id": "p069",
@@ -687,7 +1837,20 @@
   "ride": "Galactica",
   "originalName": "1729424308955.jpg",
   "drive": "https://drive.google.com/file/d/1yU4GeBs0WK1TMNn4zZyDg0Z58EJo-abv/view?usp=drivesdk",
-  "driveId": "1yU4GeBs0WK1TMNn4zZyDg0Z58EJo-abv"
+  "driveId": "1yU4GeBs0WK1TMNn4zZyDg0Z58EJo-abv",
+  "count": 2,
+  "seats": [
+   {
+    "note": "dark long-sleeve top, hands at mouth",
+    "pos": "left"
+   },
+   {
+    "note": "black jacket, beard",
+    "pos": "right"
+   }
+  ],
+  "burst": "B53",
+  "burstConfidence": "low"
  },
  {
   "id": "p070",
@@ -697,7 +1860,20 @@
   "ride": "Galactica",
   "originalName": "1729424312116.jpg",
   "drive": "https://drive.google.com/file/d/1Z3bS9ubAVhLxBGVH5peE9KOaTsWxi6yH/view?usp=drivesdk",
-  "driveId": "1Z3bS9ubAVhLxBGVH5peE9KOaTsWxi6yH"
+  "driveId": "1Z3bS9ubAVhLxBGVH5peE9KOaTsWxi6yH",
+  "count": 2,
+  "seats": [
+   {
+    "note": "glasses, dark jacket with tan panel",
+    "pos": "left"
+   },
+   {
+    "note": "dark coat, fist raised",
+    "pos": "right"
+   }
+  ],
+  "burst": "B53",
+  "burstConfidence": "low"
  },
  {
   "id": "p071",
@@ -707,7 +1883,20 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "1729424402718.jpg",
   "drive": "https://drive.google.com/file/d/1MFC-SfbRr4Wfs2uxabWFsQ6a2fZFusUw/view?usp=drivesdk",
-  "driveId": "1MFC-SfbRr4Wfs2uxabWFsQ6a2fZFusUw"
+  "driveId": "1MFC-SfbRr4Wfs2uxabWFsQ6a2fZFusUw",
+  "count": 2,
+  "seats": [
+   {
+    "note": "plaid shirt, beard",
+    "pos": "left"
+   },
+   {
+    "note": "glasses, olive-and-dark jacket",
+    "pos": "right"
+   }
+  ],
+  "burst": "B54",
+  "burstConfidence": "low"
  },
  {
   "id": "p072",
@@ -717,7 +1906,23 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "1729424410814.jpg",
   "drive": "https://drive.google.com/file/d/1-Hz_IhJ9rosPHQnNud-fOdAavg2QV7RU/view?usp=drivesdk",
-  "driveId": "1-Hz_IhJ9rosPHQnNud-fOdAavg2QV7RU"
+  "driveId": "1-Hz_IhJ9rosPHQnNud-fOdAavg2QV7RU",
+  "count": 3,
+  "countNote": "plus a partial rider at the right edge",
+  "seats": [
+   {
+    "note": "dark top, blue jeans",
+    "pos": "left"
+   },
+   {
+    "note": "light long-sleeve top, arm raised",
+    "pos": "right"
+   },
+   {
+    "note": "light scarf, seated behind and below",
+    "pos": "back-left"
+   }
+  ]
  },
  {
   "id": "p073",
@@ -727,7 +1932,24 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "1729424414170.jpg",
   "drive": "https://drive.google.com/file/d/11N9dz88kaYqDtONjpC4k9ttBJtVUkkQ1/view?usp=drivesdk",
-  "driveId": "11N9dz88kaYqDtONjpC4k9ttBJtVUkkQ1"
+  "driveId": "11N9dz88kaYqDtONjpC4k9ttBJtVUkkQ1",
+  "count": 3,
+  "seats": [
+   {
+    "note": "black top, long dark hair, arms raised",
+    "pos": "left"
+   },
+   {
+    "note": "hands covering face, plaid sleeve visible",
+    "pos": "right"
+   },
+   {
+    "note": "dark curly hair, partly visible at bottom corner",
+    "pos": "back-left"
+   }
+  ],
+  "burst": "B54",
+  "burstConfidence": "low"
  },
  {
   "id": "p074",
@@ -737,7 +1959,20 @@
   "ride": "Oblivion",
   "originalName": "1729424351465.jpg",
   "drive": "https://drive.google.com/file/d/1uV4ySsRK21-Wv4Cku7xlMjHemhxYSEJn/view?usp=drivesdk",
-  "driveId": "1uV4ySsRK21-Wv4Cku7xlMjHemhxYSEJn"
+  "driveId": "1uV4ySsRK21-Wv4Cku7xlMjHemhxYSEJn",
+  "count": 2,
+  "seats": [
+   {
+    "note": "green jacket, long hair",
+    "pos": "left"
+   },
+   {
+    "note": "plaid shirt, beard",
+    "pos": "right"
+   }
+  ],
+  "burst": "B56",
+  "burstConfidence": "high"
  },
  {
   "id": "p075",
@@ -747,7 +1982,17 @@
   "ride": "Oblivion",
   "originalName": "1729424354867.jpg",
   "drive": "https://drive.google.com/file/d/15BZM4yOGSLtdb3-YGIWdWMyQf-VxdNQp/view?usp=drivesdk",
-  "driveId": "15BZM4yOGSLtdb3-YGIWdWMyQf-VxdNQp"
+  "driveId": "15BZM4yOGSLtdb3-YGIWdWMyQf-VxdNQp",
+  "count": 1,
+  "countNote": "seat beside is empty",
+  "seats": [
+   {
+    "note": "black sweatshirt with white logo",
+    "pos": "right"
+   }
+  ],
+  "burst": "B56",
+  "burstConfidence": "high"
  },
  {
   "id": "p076",
@@ -757,7 +2002,45 @@
   "ride": "Oblivion",
   "originalName": "1729424358568.jpg",
   "drive": "https://drive.google.com/file/d/1Ir9Li6fOXj9QlRUgHCUNOI1CcpJw_vVF/view?usp=drivesdk",
-  "driveId": "1Ir9Li6fOXj9QlRUgHCUNOI1CcpJw_vVF"
+  "driveId": "1Ir9Li6fOXj9QlRUgHCUNOI1CcpJw_vVF",
+  "count": 15,
+  "countNote": "full two-row shuttle; some riders partly obscured, plus more in background",
+  "seats": [
+   {
+    "note": "dark top",
+    "pos": "front-far-left"
+   },
+   {
+    "note": "green top",
+    "pos": "front-left"
+   },
+   {
+    "note": "plaid shirt",
+    "pos": "front-middle-left"
+   },
+   {
+    "note": "black sweatshirt, white logo",
+    "pos": "front-middle"
+   },
+   {
+    "note": "glasses, dark top",
+    "pos": "front-middle-right"
+   },
+   {
+    "note": "light-coloured top",
+    "pos": "front-right"
+   },
+   {
+    "note": "dark top",
+    "pos": "back-left"
+   },
+   {
+    "note": "dark top, arm raised",
+    "pos": "back-right"
+   }
+  ],
+  "burst": "B56",
+  "burstConfidence": "high"
  },
  {
   "id": "p077",
@@ -767,7 +2050,17 @@
   "ride": "Oblivion",
   "originalName": "1729424361597.jpg",
   "drive": "https://drive.google.com/file/d/1LQaNWepgoR2E4HrmNeS3X_BTqt4I61PL/view?usp=drivesdk",
-  "driveId": "1LQaNWepgoR2E4HrmNeS3X_BTqt4I61PL"
+  "driveId": "1LQaNWepgoR2E4HrmNeS3X_BTqt4I61PL",
+  "count": 1,
+  "countNote": "seat beside is empty",
+  "seats": [
+   {
+    "note": "glasses, dark jacket, holding restraint handles",
+    "pos": "right"
+   }
+  ],
+  "burst": "B56",
+  "burstConfidence": "high"
  },
  {
   "id": "p078",
@@ -777,7 +2070,18 @@
   "ride": "Oblivion",
   "originalName": "1729424364402.jpg",
   "drive": "https://drive.google.com/file/d/1BDOM3aezIjBwCYNAXOknrXdBDKZaQ4Yd/view?usp=drivesdk",
-  "driveId": "1BDOM3aezIjBwCYNAXOknrXdBDKZaQ4Yd"
+  "driveId": "1BDOM3aezIjBwCYNAXOknrXdBDKZaQ4Yd",
+  "count": 2,
+  "seats": [
+   {
+    "note": "dark top, short hair",
+    "pos": "left"
+   },
+   {
+    "note": "black jacket, beard",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p079",
@@ -787,7 +2091,43 @@
   "ride": "Oblivion",
   "originalName": "1729424369493.jpg",
   "drive": "https://drive.google.com/file/d/1MpWyA8reEKSkqMcj6NBhQy1_jfMA0Rwa/view?usp=drivesdk",
-  "driveId": "1MpWyA8reEKSkqMcj6NBhQy1_jfMA0Rwa"
+  "driveId": "1MpWyA8reEKSkqMcj6NBhQy1_jfMA0Rwa",
+  "count": 16,
+  "countNote": "full two-row shuttle; some riders partly obscured, plus more in background",
+  "seats": [
+   {
+    "note": "light graphic t-shirt",
+    "pos": "front-left"
+   },
+   {
+    "note": "dark top, hands raised",
+    "pos": "front-middle-left"
+   },
+   {
+    "note": "white top",
+    "pos": "front-middle"
+   },
+   {
+    "note": "light blue shirt",
+    "pos": "front-middle-right"
+   },
+   {
+    "note": "dark top",
+    "pos": "front-right"
+   },
+   {
+    "note": "dark top",
+    "pos": "back-left"
+   },
+   {
+    "note": "dark top, mouth open",
+    "pos": "back-middle"
+   },
+   {
+    "note": "grey top",
+    "pos": "back-right"
+   }
+  ]
  },
  {
   "id": "p080",
@@ -797,7 +2137,26 @@
   "ride": "Rita",
   "originalName": "1729424434244.jpg",
   "drive": "https://drive.google.com/file/d/1z0J404sJjSMqwD5ycwqjGQQi2gh_8OqD/view?usp=drivesdk",
-  "driveId": "1z0J404sJjSMqwD5ycwqjGQQi2gh_8OqD"
+  "driveId": "1z0J404sJjSMqwD5ycwqjGQQi2gh_8OqD",
+  "count": 4,
+  "seats": [
+   {
+    "note": "grey scarf, dark coat, beard",
+    "pos": "left"
+   },
+   {
+    "note": "black top, hand raised",
+    "pos": "right"
+   },
+   {
+    "note": "black top, thumbs up, face partly out of frame",
+    "pos": "back-middle"
+   },
+   {
+    "note": "only top of head and eyes visible",
+    "pos": "front-middle"
+   }
+  ]
  },
  {
   "id": "p081",
@@ -807,7 +2166,26 @@
   "ride": "Rita",
   "originalName": "1729424448413.jpg",
   "drive": "https://drive.google.com/file/d/1NNVTjJFFmQaBQjdGV5RKp7fSEWtM-QML/view?usp=drivesdk",
-  "driveId": "1NNVTjJFFmQaBQjdGV5RKp7fSEWtM-QML"
+  "driveId": "1NNVTjJFFmQaBQjdGV5RKp7fSEWtM-QML",
+  "count": 4,
+  "seats": [
+   {
+    "note": "black coat over grey top",
+    "pos": "left"
+   },
+   {
+    "note": "dark jacket with tan lining",
+    "pos": "right"
+   },
+   {
+    "note": "black sweatshirt with white logo",
+    "pos": "back-middle"
+   },
+   {
+    "note": "beard, face partly in frame at bottom",
+    "pos": "front-middle"
+   }
+  ]
  },
  {
   "id": "p082",
@@ -817,7 +2195,29 @@
   "ride": "Runaway Mine Train",
   "originalName": "1729424390615.jpg",
   "drive": "https://drive.google.com/file/d/1SEbJ08n5x-vqs5wZQbvdgb0gKucKJot4/view?usp=drivesdk",
-  "driveId": "1SEbJ08n5x-vqs5wZQbvdgb0gKucKJot4"
+  "driveId": "1SEbJ08n5x-vqs5wZQbvdgb0gKucKJot4",
+  "count": 4,
+  "countNote": "plus a partial face at the right edge",
+  "seats": [
+   {
+    "note": "glasses, brown jacket, hand raised",
+    "pos": "back-left"
+   },
+   {
+    "note": "rust sweatshirt with '1984' print, arm raised",
+    "pos": "back-right"
+   },
+   {
+    "note": "black coat, hands raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "plaid shirt, beard",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B61",
+  "burstConfidence": "high"
  },
  {
   "id": "p083",
@@ -827,7 +2227,32 @@
   "ride": "Runaway Mine Train",
   "originalName": "1729424393752.jpg",
   "drive": "https://drive.google.com/file/d/1j1FTQNBRGwGdYI__2fE8JqGVFl08UWqW/view?usp=drivesdk",
-  "driveId": "1j1FTQNBRGwGdYI__2fE8JqGVFl08UWqW"
+  "driveId": "1j1FTQNBRGwGdYI__2fE8JqGVFl08UWqW",
+  "count": 5,
+  "seats": [
+   {
+    "note": "plaid shirt, torso only at top edge",
+    "pos": "back-left"
+   },
+   {
+    "note": "glasses, black jacket, beard, hands raised",
+    "pos": "back-right"
+   },
+   {
+    "note": "brown sweatshirt with white logo, arm out",
+    "pos": "left"
+   },
+   {
+    "note": "beanie hat, black puffer jacket",
+    "pos": "front-left"
+   },
+   {
+    "note": "glasses, light top, blonde hair, holding pink item",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B62",
+  "burstConfidence": "high"
  },
  {
   "id": "p084",
@@ -837,7 +2262,29 @@
   "ride": "Runaway Mine Train",
   "originalName": "1729424396601.jpg",
   "drive": "https://drive.google.com/file/d/1vQm4Xg5yRSYrbLsLiHpeDdy5pWNZYbfT/view?usp=drivesdk",
-  "driveId": "1vQm4Xg5yRSYrbLsLiHpeDdy5pWNZYbfT"
+  "driveId": "1vQm4Xg5yRSYrbLsLiHpeDdy5pWNZYbfT",
+  "count": 4,
+  "countNote": "plus a partial face at the right edge",
+  "seats": [
+   {
+    "note": "glasses, brown jacket, hand raised",
+    "pos": "back-left"
+   },
+   {
+    "note": "rust sweatshirt with '1984' print, arm raised",
+    "pos": "back-right"
+   },
+   {
+    "note": "black coat, hands raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "plaid shirt, beard",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B61",
+  "burstConfidence": "high"
  },
  {
   "id": "p085",
@@ -847,7 +2294,33 @@
   "ride": "Runaway Mine Train",
   "originalName": "1729424399775.jpg",
   "drive": "https://drive.google.com/file/d/1QvQaevEiS4hL0xibMRV3uM8LWia287c2/view?usp=drivesdk",
-  "driveId": "1QvQaevEiS4hL0xibMRV3uM8LWia287c2"
+  "driveId": "1QvQaevEiS4hL0xibMRV3uM8LWia287c2",
+  "count": 5,
+  "countNote": "plus a partial head at the bottom edge",
+  "seats": [
+   {
+    "note": "plaid shirt, torso only at top edge",
+    "pos": "back-left"
+   },
+   {
+    "note": "glasses, black jacket, beard, hands raised",
+    "pos": "back-right"
+   },
+   {
+    "note": "brown sweatshirt with white logo, arm out",
+    "pos": "left"
+   },
+   {
+    "note": "beanie hat, black puffer jacket",
+    "pos": "front-left"
+   },
+   {
+    "note": "glasses, light top, blonde hair, holding pink item",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B62",
+  "burstConfidence": "high"
  },
  {
   "id": "p086",
@@ -857,7 +2330,24 @@
   "ride": "Spinball Whizzer",
   "originalName": "1729424372718.jpg",
   "drive": "https://drive.google.com/file/d/1nlq0cbzluBDzo1nxkmP54ssn5ceTiRiL/view?usp=drivesdk",
-  "driveId": "1nlq0cbzluBDzo1nxkmP54ssn5ceTiRiL"
+  "driveId": "1nlq0cbzluBDzo1nxkmP54ssn5ceTiRiL",
+  "count": 3,
+  "seats": [
+   {
+    "note": "green jacket, long hair, facing away",
+    "pos": "front-left"
+   },
+   {
+    "note": "glasses, dark jacket, in profile",
+    "pos": "front-right"
+   },
+   {
+    "note": "dark top, back of head only",
+    "pos": "back-right"
+   }
+  ],
+  "burst": "B63",
+  "burstConfidence": "high"
  },
  {
   "id": "p087",
@@ -867,7 +2357,28 @@
   "ride": "Spinball Whizzer",
   "originalName": "1729424375809.jpg",
   "drive": "https://drive.google.com/file/d/1dGycHGsJTgkCGbkwbAv6iQypiup4aTyh/view?usp=drivesdk",
-  "driveId": "1dGycHGsJTgkCGbkwbAv6iQypiup4aTyh"
+  "driveId": "1dGycHGsJTgkCGbkwbAv6iQypiup4aTyh",
+  "count": 4,
+  "seats": [
+   {
+    "note": "green jacket, hair blown across face",
+    "pos": "front-left"
+   },
+   {
+    "note": "glasses, dark jacket with tan panel",
+    "pos": "front-right"
+   },
+   {
+    "note": "blonde hair, partly visible at top",
+    "pos": "back-left"
+   },
+   {
+    "note": "dark hair, partly visible at top",
+    "pos": "back-right"
+   }
+  ],
+  "burst": "B63",
+  "burstConfidence": "high"
  },
  {
   "id": "p088",
@@ -877,7 +2388,19 @@
   "ride": "Spinball Whizzer",
   "originalName": "1729424378385.jpg",
   "drive": "https://drive.google.com/file/d/1XwuI47J6C8XSQcDNfayTENoycPkBWGF3/view?usp=drivesdk",
-  "driveId": "1XwuI47J6C8XSQcDNfayTENoycPkBWGF3"
+  "driveId": "1XwuI47J6C8XSQcDNfayTENoycPkBWGF3",
+  "count": 2,
+  "countNote": "plus blurred figures in the background",
+  "seats": [
+   {
+    "note": "black top, arms raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "black jacket, blonde hair",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p089",
@@ -887,7 +2410,21 @@
   "ride": "Spinball Whizzer",
   "originalName": "1729424381547.jpg",
   "drive": "https://drive.google.com/file/d/18TdBX1wD8W2ScKWqASHEMkhFa5gN_Kma/view?usp=drivesdk",
-  "driveId": "18TdBX1wD8W2ScKWqASHEMkhFa5gN_Kma"
+  "driveId": "18TdBX1wD8W2ScKWqASHEMkhFa5gN_Kma",
+  "count": 2,
+  "countNote": "plus a rear rider's white sleeve visible at the top",
+  "seats": [
+   {
+    "note": "plaid shirt, beard",
+    "pos": "front-left"
+   },
+   {
+    "note": "black coat",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B65",
+  "burstConfidence": "low"
  },
  {
   "id": "p090",
@@ -897,7 +2434,24 @@
   "ride": "Spinball Whizzer",
   "originalName": "1729424384065.jpg",
   "drive": "https://drive.google.com/file/d/1oyl8zltGEccCV3zkSmu70UeNgpUc03lz/view?usp=drivesdk",
-  "driveId": "1oyl8zltGEccCV3zkSmu70UeNgpUc03lz"
+  "driveId": "1oyl8zltGEccCV3zkSmu70UeNgpUc03lz",
+  "count": 3,
+  "seats": [
+   {
+    "note": "white long-sleeve top, beard",
+    "pos": "front-left"
+   },
+   {
+    "note": "dark hair, back of head only",
+    "pos": "back-middle"
+   },
+   {
+    "note": "plaid shirt, in profile",
+    "pos": "back-right"
+   }
+  ],
+  "burst": "B65",
+  "burstConfidence": "low"
  },
  {
   "id": "p091",
@@ -907,7 +2461,22 @@
   "ride": "Spinball Whizzer",
   "originalName": "1729424387037.jpg",
   "drive": "https://drive.google.com/file/d/1YaWsmFvDKtO4sYt5yjXLIMB-Xd8eGVpV/view?usp=drivesdk",
-  "driveId": "1YaWsmFvDKtO4sYt5yjXLIMB-Xd8eGVpV"
+  "driveId": "1YaWsmFvDKtO4sYt5yjXLIMB-Xd8eGVpV",
+  "count": 3,
+  "seats": [
+   {
+    "note": "black top, short hair, hand raised",
+    "pos": "left"
+   },
+   {
+    "note": "plaid shirt, partly visible",
+    "pos": "back-middle"
+   },
+   {
+    "note": "white and black long-sleeve top, beard, hand at chin",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p092",
@@ -917,7 +2486,22 @@
   "ride": "TH13TEEN",
   "originalName": "1729424327824.jpg",
   "drive": "https://drive.google.com/file/d/1Z81fNHcpJoTnYKcuFTon0YIlKCuenUBz/view?usp=drivesdk",
-  "driveId": "1Z81fNHcpJoTnYKcuFTon0YIlKCuenUBz"
+  "driveId": "1Z81fNHcpJoTnYKcuFTon0YIlKCuenUBz",
+  "count": 3,
+  "seats": [
+   {
+    "note": "black coat",
+    "pos": "front-left"
+   },
+   {
+    "note": "black puffer jacket, beard",
+    "pos": "front-right"
+   },
+   {
+    "note": "face partly visible behind the front pair",
+    "pos": "back-left"
+   }
+  ]
  },
  {
   "id": "p093",
@@ -927,7 +2511,22 @@
   "ride": "TH13TEEN",
   "originalName": "1729424330918.jpg",
   "drive": "https://drive.google.com/file/d/1Hx7Jim99H0aIMiGD1fgO0LU2uwhwma7V/view?usp=drivesdk",
-  "driveId": "1Hx7Jim99H0aIMiGD1fgO0LU2uwhwma7V"
+  "driveId": "1Hx7Jim99H0aIMiGD1fgO0LU2uwhwma7V",
+  "count": 3,
+  "seats": [
+   {
+    "note": "plaid shirt, beard",
+    "pos": "front-left"
+   },
+   {
+    "note": "dark top, hand at mouth",
+    "pos": "back-right"
+   },
+   {
+    "note": "long hair, face partly out of frame",
+    "pos": "right"
+   }
+  ]
  },
  {
   "id": "p094",
@@ -937,7 +2536,23 @@
   "ride": "TH13TEEN",
   "originalName": "1729424334075.jpg",
   "drive": "https://drive.google.com/file/d/1oJvCZggvksT65VpVIpBbRJS1EhYV25tg/view?usp=drivesdk",
-  "driveId": "1oJvCZggvksT65VpVIpBbRJS1EhYV25tg"
+  "driveId": "1oJvCZggvksT65VpVIpBbRJS1EhYV25tg",
+  "count": 3,
+  "countNote": "plus more partial riders in the row behind",
+  "seats": [
+   {
+    "note": "light grey-green hoodie, arms raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "grey zip top, arm raised, face partly obscured",
+    "pos": "front-right"
+   },
+   {
+    "note": "face partly visible behind the front pair",
+    "pos": "back-left"
+   }
+  ]
  },
  {
   "id": "p095",
@@ -947,7 +2562,20 @@
   "ride": "The Smiler",
   "originalName": "1729424336703.jpg",
   "drive": "https://drive.google.com/file/d/1cAM4mPfhIWGdL4BkVaWXIBWkN0XJbNWV/view?usp=drivesdk",
-  "driveId": "1cAM4mPfhIWGdL4BkVaWXIBWkN0XJbNWV"
+  "driveId": "1cAM4mPfhIWGdL4BkVaWXIBWkN0XJbNWV",
+  "count": 2,
+  "seats": [
+   {
+    "note": "plaid shirt over grey top, beard",
+    "pos": "left"
+   },
+   {
+    "note": "black sweatshirt with white logo",
+    "pos": "right"
+   }
+  ],
+  "burst": "B70",
+  "burstConfidence": "low"
  },
  {
   "id": "p096",
@@ -957,7 +2585,21 @@
   "ride": "The Smiler",
   "originalName": "1729424339952.jpg",
   "drive": "https://drive.google.com/file/d/1WgUuHfDgRWfp2Ezq2TmGgJomfJee5GM_/view?usp=drivesdk",
-  "driveId": "1WgUuHfDgRWfp2Ezq2TmGgJomfJee5GM_"
+  "driveId": "1WgUuHfDgRWfp2Ezq2TmGgJomfJee5GM_",
+  "count": 2,
+  "countNote": "plus an arm in a plaid sleeve reaching in from the right edge",
+  "seats": [
+   {
+    "note": "black coat, tongue out",
+    "pos": "left"
+   },
+   {
+    "note": "green-grey jacket",
+    "pos": "right"
+   }
+  ],
+  "burst": "B70",
+  "burstConfidence": "low"
  },
  {
   "id": "p097",
@@ -967,7 +2609,22 @@
   "ride": "Wicker Man",
   "originalName": "1729424315447.jpg",
   "drive": "https://drive.google.com/file/d/1v_vcJKHCs46BfsCZQksKNmJY7x3tvr3K/view?usp=drivesdk",
-  "driveId": "1v_vcJKHCs46BfsCZQksKNmJY7x3tvr3K"
+  "driveId": "1v_vcJKHCs46BfsCZQksKNmJY7x3tvr3K",
+  "count": 3,
+  "seats": [
+   {
+    "note": "black zip jacket, beard",
+    "pos": "front-left"
+   },
+   {
+    "note": "black sweatshirt with white logo, arms raised",
+    "pos": "front-right"
+   },
+   {
+    "note": "face partly visible between the front pair",
+    "pos": "back-middle"
+   }
+  ]
  },
  {
   "id": "p098",
@@ -977,7 +2634,19 @@
   "ride": "Wicker Man",
   "originalName": "1729424321250.jpg",
   "drive": "https://drive.google.com/file/d/1Iqos5ifgeS6d9lFZF-GSKesdWcwQAbVf/view?usp=drivesdk",
-  "driveId": "1Iqos5ifgeS6d9lFZF-GSKesdWcwQAbVf"
+  "driveId": "1Iqos5ifgeS6d9lFZF-GSKesdWcwQAbVf",
+  "count": 2,
+  "countNote": "plus a partial face at the left edge",
+  "seats": [
+   {
+    "note": "glasses, grey-brown jacket, hands raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "black coat, hands raised",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p099",
@@ -987,7 +2656,18 @@
   "ride": "Wicker Man",
   "originalName": "1729424324458.jpg",
   "drive": "https://drive.google.com/file/d/1yxL6seTD8DqzPSjOWnmwF_WMLTtOrvk4/view?usp=drivesdk",
-  "driveId": "1yxL6seTD8DqzPSjOWnmwF_WMLTtOrvk4"
+  "driveId": "1yxL6seTD8DqzPSjOWnmwF_WMLTtOrvk4",
+  "count": 2,
+  "seats": [
+   {
+    "note": "plaid shirt over grey top, beard",
+    "pos": "front-left"
+   },
+   {
+    "note": "grey-green jacket, arms raised",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p100",
@@ -997,7 +2677,34 @@
   "ride": "Duel / Curse of Alton Manor",
   "originalName": "img27735.jpg",
   "drive": "https://drive.google.com/file/d/1XqzMCoVyX55Czu1DOk8uwChMiW39AHaN/view?usp=drivesdk",
-  "driveId": "1XqzMCoVyX55Czu1DOk8uwChMiW39AHaN"
+  "driveId": "1XqzMCoVyX55Czu1DOk8uwChMiW39AHaN",
+  "count": 6,
+  "seats": [
+   {
+    "note": "glasses, black jacket over maroon top",
+    "pos": "front-left"
+   },
+   {
+    "note": "black top, light hair",
+    "pos": "front-middle"
+   },
+   {
+    "note": "black jacket, white top",
+    "pos": "front-right"
+   },
+   {
+    "note": "dark top, hands covering face",
+    "pos": "back-left"
+   },
+   {
+    "note": "red top, hands on cheeks",
+    "pos": "back-middle"
+   },
+   {
+    "note": "glasses, dark top, hand near mouth",
+    "pos": "back-right"
+   }
+  ]
  },
  {
   "id": "p101",
@@ -1007,7 +2714,20 @@
   "ride": "Galactica",
   "originalName": "img61705.jpg",
   "drive": "https://drive.google.com/file/d/1g4Ht3RVbwhBEJo1eEp9JsFKOQvFOeuLv/view?usp=drivesdk",
-  "driveId": "1g4Ht3RVbwhBEJo1eEp9JsFKOQvFOeuLv"
+  "driveId": "1g4Ht3RVbwhBEJo1eEp9JsFKOQvFOeuLv",
+  "count": 2,
+  "seats": [
+   {
+    "note": "black top, light windswept hair",
+    "pos": "left"
+   },
+   {
+    "note": "glasses, dark zip-up top, hands raised",
+    "pos": "right"
+   }
+  ],
+  "burst": "B75",
+  "burstConfidence": "low"
  },
  {
   "id": "p102",
@@ -1017,7 +2737,20 @@
   "ride": "Galactica",
   "originalName": "img61706.jpg",
   "drive": "https://drive.google.com/file/d/15UU1snpCvgEIwOvM4FkdErGWeHqCx965/view?usp=drivesdk",
-  "driveId": "15UU1snpCvgEIwOvM4FkdErGWeHqCx965"
+  "driveId": "15UU1snpCvgEIwOvM4FkdErGWeHqCx965",
+  "count": 2,
+  "seats": [
+   {
+    "note": "glasses, red t-shirt",
+    "pos": "left"
+   },
+   {
+    "note": "white long-sleeve top, hand raised",
+    "pos": "right"
+   }
+  ],
+  "burst": "B75",
+  "burstConfidence": "low"
  },
  {
   "id": "p103",
@@ -1027,7 +2760,25 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "img75690.jpg",
   "drive": "https://drive.google.com/file/d/1ne7oShZxK1YzjrqwbwVv-QropGoNOqQd/view?usp=drivesdk",
-  "driveId": "1ne7oShZxK1YzjrqwbwVv-QropGoNOqQd"
+  "driveId": "1ne7oShZxK1YzjrqwbwVv-QropGoNOqQd",
+  "count": 3,
+  "countNote": "right-hand rider only partly in frame, face not visible",
+  "seats": [
+   {
+    "note": "glasses, magenta t-shirt, blue jeans",
+    "pos": "left"
+   },
+   {
+    "note": "black top, light hair",
+    "pos": "middle"
+   },
+   {
+    "note": "grey puffer jacket, partial view",
+    "pos": "right"
+   }
+  ],
+  "burst": "B76",
+  "burstConfidence": "low"
  },
  {
   "id": "p104",
@@ -1037,7 +2788,25 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "img78683.jpg",
   "drive": "https://drive.google.com/file/d/1OvzOxbQqdGeHCeXkCx1-_sZD0wwaznG0/view?usp=drivesdk",
-  "driveId": "1OvzOxbQqdGeHCeXkCx1-_sZD0wwaznG0"
+  "driveId": "1OvzOxbQqdGeHCeXkCx1-_sZD0wwaznG0",
+  "count": 3,
+  "countNote": "third rider only partly visible at top of frame",
+  "seats": [
+   {
+    "note": "pink jacket, plaid bottoms",
+    "pos": "left"
+   },
+   {
+    "note": "glasses, dark jacket, blue jeans",
+    "pos": "right"
+   },
+   {
+    "note": "partial, top of head only",
+    "pos": "back-right"
+   }
+  ],
+  "burst": "B76",
+  "burstConfidence": "low"
  },
  {
   "id": "p105",
@@ -1047,7 +2816,20 @@
   "ride": "Nemesis (Reborn)",
   "originalName": "img78684.jpg",
   "drive": "https://drive.google.com/file/d/16YzhvFRGYX7M0VSRNddmh77nDNyi0fVF/view?usp=drivesdk",
-  "driveId": "16YzhvFRGYX7M0VSRNddmh77nDNyi0fVF"
+  "driveId": "16YzhvFRGYX7M0VSRNddmh77nDNyi0fVF",
+  "count": 2,
+  "seats": [
+   {
+    "note": "glasses, dark green top",
+    "pos": "left"
+   },
+   {
+    "note": "cream long-sleeve top",
+    "pos": "right"
+   }
+  ],
+  "burst": "B76",
+  "burstConfidence": "low"
  },
  {
   "id": "p106",
@@ -1057,7 +2839,25 @@
   "ride": "Oblivion",
   "originalName": "img33429.jpg",
   "drive": "https://drive.google.com/file/d/1JKd4MwTWc3fbE9eyRRLHQhL5Bo_nYXLf/view?usp=drivesdk",
-  "driveId": "1JKd4MwTWc3fbE9eyRRLHQhL5Bo_nYXLf"
+  "driveId": "1JKd4MwTWc3fbE9eyRRLHQhL5Bo_nYXLf",
+  "count": 3,
+  "countNote": "photo is rotated sideways; third rider only partly visible",
+  "seats": [
+   {
+    "note": "maroon top, orange restraint",
+    "pos": "upper"
+   },
+   {
+    "note": "glasses, dark jacket, orange restraint",
+    "pos": "lower"
+   },
+   {
+    "note": "plaid trousers, partial view",
+    "pos": "upper-right"
+   }
+  ],
+  "burst": "B77",
+  "burstConfidence": "low"
  },
  {
   "id": "p107",
@@ -1067,7 +2867,21 @@
   "ride": "Oblivion",
   "originalName": "img33430.jpg",
   "drive": "https://drive.google.com/file/d/10sRAnmb_Xt3CiKu68t5ZQGTp2maUP1tl/view?usp=drivesdk",
-  "driveId": "10sRAnmb_Xt3CiKu68t5ZQGTp2maUP1tl"
+  "driveId": "10sRAnmb_Xt3CiKu68t5ZQGTp2maUP1tl",
+  "count": 2,
+  "countNote": "photo is rotated sideways",
+  "seats": [
+   {
+    "note": "glasses, dark top, hands clasped, orange restraint",
+    "pos": "upper"
+   },
+   {
+    "note": "glasses, dark jacket over pink top, orange restraint",
+    "pos": "lower"
+   }
+  ],
+  "burst": "B77",
+  "burstConfidence": "low"
  },
  {
   "id": "p108",
@@ -1077,7 +2891,21 @@
   "ride": "Oblivion",
   "originalName": "img33431.jpg",
   "drive": "https://drive.google.com/file/d/1xwdtO6ldR3gBTTUmyzQranDaLWo46P04/view?usp=drivesdk",
-  "driveId": "1xwdtO6ldR3gBTTUmyzQranDaLWo46P04"
+  "driveId": "1xwdtO6ldR3gBTTUmyzQranDaLWo46P04",
+  "count": 2,
+  "countNote": "photo is rotated sideways",
+  "seats": [
+   {
+    "note": "dark jacket over light top, hands raised, orange restraint",
+    "pos": "upper"
+   },
+   {
+    "note": "black top, light windswept hair, orange restraint",
+    "pos": "lower"
+   }
+  ],
+  "burst": "B77",
+  "burstConfidence": "low"
  },
  {
   "id": "p109",
@@ -1087,7 +2915,28 @@
   "ride": "Runaway Mine Train",
   "originalName": "img24132.jpg",
   "drive": "https://drive.google.com/file/d/1W4SBqi8-hM6-u0gC0Qo9RpPpMkOjDSm7/view?usp=drivesdk",
-  "driveId": "1W4SBqi8-hM6-u0gC0Qo9RpPpMkOjDSm7"
+  "driveId": "1W4SBqi8-hM6-u0gC0Qo9RpPpMkOjDSm7",
+  "count": 4,
+  "seats": [
+   {
+    "note": "glasses, dark jacket",
+    "pos": "back-left"
+   },
+   {
+    "note": "salmon-pink jacket, arms raised",
+    "pos": "back-right"
+   },
+   {
+    "note": "glasses, black puffer jacket, red top",
+    "pos": "front-left"
+   },
+   {
+    "note": "glasses, dark jacket with grey panel",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B78",
+  "burstConfidence": "low"
  },
  {
   "id": "p110",
@@ -1097,7 +2946,33 @@
   "ride": "Runaway Mine Train",
   "originalName": "img24133.jpg",
   "drive": "https://drive.google.com/file/d/1-Xbbg_7uk892Jo2Gow8p1QHZUlivYpNq/view?usp=drivesdk",
-  "driveId": "1-Xbbg_7uk892Jo2Gow8p1QHZUlivYpNq"
+  "driveId": "1-Xbbg_7uk892Jo2Gow8p1QHZUlivYpNq",
+  "count": 5,
+  "countNote": "plus partial figures at the frame edges",
+  "seats": [
+   {
+    "note": "partial, dark clothing, face not visible",
+    "pos": "back"
+   },
+   {
+    "note": "dark brown zip-up top",
+    "pos": "middle-left"
+   },
+   {
+    "note": "mauve sweatshirt",
+    "pos": "middle-right"
+   },
+   {
+    "note": "black jacket, white top, hands raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "black top, arms raised",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B79",
+  "burstConfidence": "high"
  },
  {
   "id": "p111",
@@ -1107,7 +2982,29 @@
   "ride": "Runaway Mine Train",
   "originalName": "img24144.jpg",
   "drive": "https://drive.google.com/file/d/1x7w9W7Mk7WOZAPDKj9HzMp-w58QWys_L/view?usp=drivesdk",
-  "driveId": "1x7w9W7Mk7WOZAPDKj9HzMp-w58QWys_L"
+  "driveId": "1x7w9W7Mk7WOZAPDKj9HzMp-w58QWys_L",
+  "count": 4,
+  "countNote": "dark photo, clothing hard to make out",
+  "seats": [
+   {
+    "note": "dark top, glasses",
+    "pos": "back-left"
+   },
+   {
+    "note": "red jacket",
+    "pos": "back-right"
+   },
+   {
+    "note": "dark top, partly shadowed",
+    "pos": "front-left"
+   },
+   {
+    "note": "dark top, hand raised",
+    "pos": "front-right"
+   }
+  ],
+  "burst": "B78",
+  "burstConfidence": "low"
  },
  {
   "id": "p112",
@@ -1117,7 +3014,37 @@
   "ride": "Runaway Mine Train",
   "originalName": "img24145.jpg",
   "drive": "https://drive.google.com/file/d/1FhY-qE7vcQ2IXUMZBbKm0RMj0a0Zzowc/view?usp=drivesdk",
-  "driveId": "1FhY-qE7vcQ2IXUMZBbKm0RMj0a0Zzowc"
+  "driveId": "1FhY-qE7vcQ2IXUMZBbKm0RMj0a0Zzowc",
+  "count": 6,
+  "countNote": "includes partial figures at the frame edges",
+  "seats": [
+   {
+    "note": "partial, dark clothing, face not visible",
+    "pos": "back"
+   },
+   {
+    "note": "dark brown zip-up top",
+    "pos": "middle-left"
+   },
+   {
+    "note": "mauve sweatshirt, waving",
+    "pos": "middle-right"
+   },
+   {
+    "note": "black jacket, white top, hands raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "black top, arm raised",
+    "pos": "front-right"
+   },
+   {
+    "note": "partial, top of head only",
+    "pos": "right edge"
+   }
+  ],
+  "burst": "B79",
+  "burstConfidence": "high"
  },
  {
   "id": "p113",
@@ -1127,7 +3054,20 @@
   "ride": "The Smiler",
   "originalName": "img15326.jpg",
   "drive": "https://drive.google.com/file/d/1nyQupak0PVMf9lfDqUjwIX46Tgr7cllS/view?usp=drivesdk",
-  "driveId": "1nyQupak0PVMf9lfDqUjwIX46Tgr7cllS"
+  "driveId": "1nyQupak0PVMf9lfDqUjwIX46Tgr7cllS",
+  "count": 2,
+  "seats": [
+   {
+    "note": "magenta t-shirt, yellow restraint",
+    "pos": "left"
+   },
+   {
+    "note": "glasses, black t-shirt, yellow restraint",
+    "pos": "right"
+   }
+  ],
+  "burst": "B80",
+  "burstConfidence": "low"
  },
  {
   "id": "p114",
@@ -1137,7 +3077,20 @@
   "ride": "The Smiler",
   "originalName": "img15327.jpg",
   "drive": "https://drive.google.com/file/d/1r0YjT1kcaaajjQyBxASvK39OOb0JFg9i/view?usp=drivesdk",
-  "driveId": "1r0YjT1kcaaajjQyBxASvK39OOb0JFg9i"
+  "driveId": "1r0YjT1kcaaajjQyBxASvK39OOb0JFg9i",
+  "count": 2,
+  "seats": [
+   {
+    "note": "black top, light windswept hair, yellow restraint",
+    "pos": "left"
+   },
+   {
+    "note": "white long-sleeve top, yellow restraint",
+    "pos": "right"
+   }
+  ],
+  "burst": "B80",
+  "burstConfidence": "low"
  },
  {
   "id": "p115",
@@ -1147,7 +3100,25 @@
   "ride": "The Smiler",
   "originalName": "img19326.jpg",
   "drive": "https://drive.google.com/file/d/1nTPw5_IkLsNDLU7C12O-XwcPbZxdefoy/view?usp=drivesdk",
-  "driveId": "1nTPw5_IkLsNDLU7C12O-XwcPbZxdefoy"
+  "driveId": "1nTPw5_IkLsNDLU7C12O-XwcPbZxdefoy",
+  "count": 3,
+  "countNote": "third rider only partly visible at left edge",
+  "seats": [
+   {
+    "note": "dark t-shirt, partial view",
+    "pos": "left edge"
+   },
+   {
+    "note": "pink jacket, plaid trousers, yellow restraint",
+    "pos": "middle-left"
+   },
+   {
+    "note": "glasses, dark zip-up jacket, yellow restraint",
+    "pos": "right"
+   }
+  ],
+  "burst": "B80",
+  "burstConfidence": "low"
  },
  {
   "id": "p116",
@@ -1157,7 +3128,26 @@
   "ride": "Wicker Man",
   "originalName": "img40382.jpg",
   "drive": "https://drive.google.com/file/d/14xaBMu54KW70eupdu39tDGlNtGsSr6LD/view?usp=drivesdk",
-  "driveId": "14xaBMu54KW70eupdu39tDGlNtGsSr6LD"
+  "driveId": "14xaBMu54KW70eupdu39tDGlNtGsSr6LD",
+  "count": 4,
+  "seats": [
+   {
+    "note": "glasses, grey-green jacket, arms raised",
+    "pos": "back-left"
+   },
+   {
+    "note": "salmon-pink jacket, arms raised",
+    "pos": "back-right"
+   },
+   {
+    "note": "dark top, head low in frame",
+    "pos": "front-left"
+   },
+   {
+    "note": "dark top, face partly obscured",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p117",
@@ -1167,7 +3157,26 @@
   "ride": "Wicker Man",
   "originalName": "img40383.jpg",
   "drive": "https://drive.google.com/file/d/1Da154beUwETIA0GsJgghhJFE260CKxnV/view?usp=drivesdk",
-  "driveId": "1Da154beUwETIA0GsJgghhJFE260CKxnV"
+  "driveId": "1Da154beUwETIA0GsJgghhJFE260CKxnV",
+  "count": 4,
+  "seats": [
+   {
+    "note": "black top, light hair, hand near face",
+    "pos": "back-left"
+   },
+   {
+    "note": "glasses, black jacket, hand at chin",
+    "pos": "back-right"
+   },
+   {
+    "note": "glasses, dark top, hands raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "salmon-pink sleeves, hands raised, head low in frame",
+    "pos": "front-right"
+   }
+  ]
  },
  {
   "id": "p118",
@@ -1177,6 +3186,26 @@
   "ride": "Wicker Man",
   "originalName": "img40388.jpg",
   "drive": "https://drive.google.com/file/d/1ePMt2xibWEL6m6-GVWWMUBmUN2yL-eUf/view?usp=drivesdk",
-  "driveId": "1ePMt2xibWEL6m6-GVWWMUBmUN2yL-eUf"
+  "driveId": "1ePMt2xibWEL6m6-GVWWMUBmUN2yL-eUf",
+  "count": 4,
+  "countNote": "includes two partial figures",
+  "seats": [
+   {
+    "note": "glasses, dark top, hands raised",
+    "pos": "front-left"
+   },
+   {
+    "note": "black jacket, white top, hands raised",
+    "pos": "front-right"
+   },
+   {
+    "note": "green t-shirt with white text, partial torso",
+    "pos": "back-right"
+   },
+   {
+    "note": "partial, top of head only",
+    "pos": "front-centre"
+   }
+  ]
  }
 ]

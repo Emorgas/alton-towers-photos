@@ -160,6 +160,15 @@ a{color:var(--ember2)}
         <select id="lbRideEdit" aria-label="Correct the ride for this photo"></select>
       </span>
     </div>
+    <div class="tagbox" id="lbSeatBox" hidden>
+      <div class="lbl" style="font:700 11px/1 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--mist)">Riders in this photo — seat guide</div>
+      <div class="who" id="lbSeats"></div>
+      <div class="hint" id="lbBurstHint"></div>
+      <div class="row" id="lbBurstRow" hidden>
+        <button class="btn" id="lbBurstBtn">Apply these names to the whole burst</button>
+        <span class="hint">Same ride, same vehicle load — check the other photos after applying.</span>
+      </div>
+    </div>
     <div class="tagbox" id="lbTagBox">
       <div class="lbl" style="font:700 11px/1 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--mist)">Who is in this photo?</div>
       <div class="who" id="lbWho"></div>

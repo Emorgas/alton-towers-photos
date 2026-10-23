@@ -92,12 +92,16 @@ function filtered(list) {
     (state.people.size === 0 || [...state.people].every(n => tagsOf(p).includes(n)))
   );
 }
+function burstMembers(p) { return p.burst ? PHOTOS.filter(x => x.burst === p.burst) : [p]; }
 function card(p) {
   const f = document.createElement("figure");
   f.className = "card";
   const tags = tagsOf(p);
+  const bs = burstMembers(p).length;
+  const sub = [p.count ? `${p.count} rider${p.count === 1 ? "" : "s"}` : "", bs > 1 ? `burst of ${bs}` : ""].filter(Boolean).join(" · ");
   f.innerHTML = `<img loading="lazy" src="photos/${p.file}" alt="${rideOf(p)} ride photo, ${p.label}">
     <figcaption><div class="t"><span class="ride">${rideOf(p)}</span><span class="year">${p.label}</span></div>
+    ${sub ? `<div class="hint">${sub}</div>` : ""}
     <div class="tags">${tags.length ? tags.map(n => `<span class="ptag">${n}</span>`).join("") : `<span class="ptag none">untagged</span>`}</div></figcaption>`;
   f.onclick = () => openLightbox(p.id);
   return f;
@@ -176,6 +180,26 @@ function showLb() {
     local.rideFixes = local.rideFixes || {}; local.rideFixes[p.id] = r; saveLocal();
     buildFilters(); render(); showLb();
   };
+  // Seat guide + burst helper (data from the assisted tagging pass; positions/clothing only, no identities)
+  const seatBox = $("#lbSeatBox");
+  if (p.seats && p.seats.length) {
+    seatBox.hidden = false;
+    $("#lbSeats").innerHTML = p.seats.map(s => `<span class="ptag" style="background:rgba(255,158,69,.12);border-color:rgba(255,158,69,.4);color:#ffd9a8">${s.pos} — ${s.note}</span>`).join("");
+    const members = burstMembers(p);
+    $("#lbBurstHint").textContent = members.length > 1
+      ? `Part of a burst of ${members.length} photos (same ride session${p.burstConfidence ? ", " + p.burstConfidence + " confidence" : ""}). Tag this one, then apply to the burst.`
+      : "Single photo — no burst partners found.";
+    $("#lbBurstRow").hidden = !(state.tagMode && members.length > 1);
+    $("#lbBurstBtn").textContent = `Apply these names to the whole burst (${members.length} photos)`;
+    $("#lbBurstBtn").onclick = () => {
+      const names = tagsOf(p);
+      if (!names.length) { alert("Tag at least one name on this photo first."); return; }
+      local.tags = local.tags || {};
+      members.forEach(m => { local.tags[m.id] = [...names]; });
+      saveLocal(); buildStats(); buildFilters(); render(); showLb();
+      alert(`Applied ${names.join(", ")} to ${members.length} photos in this burst. Check each one — you can untag anyone who is not actually in it.`);
+    };
+  } else { seatBox.hidden = true; }
   const who = $("#lbWho"); who.innerHTML = "";
   people().forEach(name => {
     const on = tagsOf(p).includes(name);

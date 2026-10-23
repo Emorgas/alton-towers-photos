@@ -6,6 +6,10 @@ grouped by ride so the same ride can be compared across the years.
 - **All photos / By ride / By year** — browse and filter
 - **Compare years** — pick a ride, one column per trip
 - **People tagging** — turn on *Tag mode*, open a photo, tap who is in it.
+  Every photo has a seat guide from an assisted visual pass (rider count + seat positions
+  with clothing notes — positions only, nobody is auto-identified). Photos are also grouped
+  into *bursts*: same ride session / vehicle load, with a confidence rating. Tag one photo
+  in a burst and use *Apply these names to the whole burst*, then spot-check the others.
   Tags save in your own browser. *Export tags* downloads a `tags.json` —
   send it to Stephen and he can bake it into `data/tags.json` so everyone sees the tags.
 - Ride names were read from the branding printed on each photo

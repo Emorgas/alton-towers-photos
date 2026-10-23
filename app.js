@@ -40,10 +40,15 @@ async function boot() {
 function buildStats() {
   const years = [...new Set(PHOTOS.map(p => p.year))].sort();
   const rides = new Set(PHOTOS.map(p => rideOf(p)));
+  const screams = PHOTOS.reduce((a, p) => a + (p.count || 0), 0);
+  const byRide = {}; PHOTOS.forEach(p => { const r = rideOf(p); byRide[r] = (byRide[r] || 0) + 1; });
+  const topRide = Object.entries(byRide).sort((a, b) => b[1] - a[1])[0];
   $("#stats").innerHTML = [
-    `<span class="stat"><b>${PHOTOS.length}</b> photos</span>`,
+    `<span class="stat"><b>${PHOTOS.length}</b> photos on the wall</span>`,
     `<span class="stat"><b>${years.length}</b> trips — ${years.join(" · ")}</span>`,
     `<span class="stat"><b>${rides.size}</b> rides &amp; attractions</span>`,
+    `<span class="stat fun"><b>${screams}</b> screams captured</span>`,
+    `<span class="stat fun">Most ridden: <b>${topRide[0]}</b> (${topRide[1]})</span>`,
     `<span class="stat"><b>${Object.keys(mergedTags()).length}</b> photos tagged</span>`
   ].join("");
 }
@@ -92,6 +97,14 @@ function filtered(list) {
     (state.people.size === 0 || [...state.people].every(n => tagsOf(p).includes(n)))
   );
 }
+const RIDE_COLORS = {
+  "The Smiler": "#ffd21f", "Wicker Man": "#ff5e3a", "Nemesis (Reborn)": "#e33f4e",
+  "Oblivion": "#ffa41a", "Galactica": "#39d0c4", "Rita": "#ff4d6d",
+  "Runaway Mine Train": "#d9a05b", "Spinball Whizzer": "#5aa2ff", "TH13TEEN": "#9ccc3c",
+  "Duel / Curse of Alton Manor": "#a06bff", "Congo River Rapids": "#2fbf71",
+  "Extras — around the park": "#f0ead9"
+};
+function rideColor(r) { return RIDE_COLORS[r] || "#ff9e45"; }
 function burstMembers(p) { return p.burst ? PHOTOS.filter(x => x.burst === p.burst) : [p]; }
 function card(p) {
   const f = document.createElement("figure");
@@ -99,8 +112,11 @@ function card(p) {
   const tags = tagsOf(p);
   const bs = burstMembers(p).length;
   const sub = [p.count ? `${p.count} rider${p.count === 1 ? "" : "s"}` : "", bs > 1 ? `burst of ${bs}` : ""].filter(Boolean).join(" · ");
+  const rot = ((parseInt(p.id.slice(1), 10) * 37) % 5 - 2) * 0.7;
+  f.style.setProperty("--rot", rot.toFixed(1) + "deg");
+  f.style.setProperty("--ride", rideColor(rideOf(p)));
   f.innerHTML = `<img loading="lazy" src="photos/${p.file}" alt="${rideOf(p)} ride photo, ${p.label}">
-    <figcaption><div class="t"><span class="ride">${rideOf(p)}</span><span class="year">${p.label}</span></div>
+    <figcaption><div class="t"><span class="ride">${rideOf(p)}</span><span class="stamp">${p.label}</span></div>
     ${sub ? `<div class="hint">${sub}</div>` : ""}
     <div class="tags">${tags.length ? tags.map(n => `<span class="ptag">${n}</span>`).join("") : `<span class="ptag none">untagged</span>`}</div></figcaption>`;
   f.onclick = () => openLightbox(p.id);
@@ -117,14 +133,17 @@ function render() {
     list = PHOTOS.filter(p => rideOf(p) === ride);
     state.visible = filtered(list);
     const head = document.createElement("h2"); head.className = "viewhead";
-    head.innerHTML = `${ride} <span class="sub">— the same ride on every trip we have it</span>`;
+    head.style.setProperty("--ride", rideColor(ride));
+    head.innerHTML = `${ride} <span class="sub">— then &amp; now: the same ride on every trip we have it</span>`;
     main.appendChild(head);
     const cols = document.createElement("div"); cols.className = "years";
     [...new Set(PHOTOS.map(p => p.year))].sort().forEach(y => {
       const col = document.createElement("section"); col.className = "yearcol";
-      col.innerHTML = `<h3>${y}</h3>`;
+      const label = (PHOTOS.find(p => p.year === y) || {}).label || String(y);
+      const mo = label.replace(String(y), "").trim();
+      col.innerHTML = `<h3>${y}${mo ? `<span class="mo">${mo}</span>` : ""}</h3>`;
       const inYear = state.visible.filter(p => p.year === y);
-      if (!inYear.length) col.insertAdjacentHTML("beforeend", `<div class="empty">No ${ride} photo this year</div>`);
+      if (!inYear.length) col.insertAdjacentHTML("beforeend", `<div class="empty">No ${ride} photo this trip —<br>closed, queued out, or we chickened out</div>`);
       inYear.forEach(p => col.appendChild(card(p)));
       cols.appendChild(col);
     });
@@ -139,18 +158,22 @@ function render() {
       const g = document.createElement("section"); g.className = "ridegroup";
       const items = groups.get(k);
       if (state.view === "ride") items.sort((a, b) => a.year - b.year);
-      g.innerHTML = `<h2>${k} <span class="sub">${items.length} photo${items.length === 1 ? "" : "s"}${state.view === "ride" ? " · " + [...new Set(items.map(p => p.year))].sort().join(" / ") : ""}</span></h2>`;
+      const title = state.view === "ride" ? k : items[0].label;
+      const h = document.createElement("h2");
+      h.style.setProperty("--ride", rideColor(state.view === "ride" ? k : rideOf(items[0])));
+      h.innerHTML = `${state.view === "ride" ? `<span class="sign">Now riding</span>` : ""}${title} <span class="sub">${items.length} photo${items.length === 1 ? "" : "s"}${state.view === "ride" ? " · " + [...new Set(items.map(p => p.year))].sort().join(" / ") : ""}</span>`;
+      g.appendChild(h);
       const strip = document.createElement("div"); strip.className = state.view === "ride" ? "strip" : "grid";
       items.forEach(p => strip.appendChild(card(p)));
       g.appendChild(strip); main.appendChild(g);
     });
-    if (!groups.size) main.innerHTML = `<p class="hint">Nothing matches those filters yet.</p>`;
+    if (!groups.size) main.innerHTML = `<p class="empty-note">Nothing on this bit of wall — try clearing a filter or two.</p>`;
   } else {
     state.visible = filtered(list);
     const grid = document.createElement("div"); grid.className = "grid";
     state.visible.forEach(p => grid.appendChild(card(p)));
     main.appendChild(grid);
-    if (!state.visible.length) main.innerHTML = `<p class="hint">Nothing matches those filters yet.</p>`;
+    if (!state.visible.length) main.innerHTML = `<p class="empty-note">Nothing on this bit of wall — try clearing a filter or two.</p>`;
   }
   $("#count").textContent = `${state.visible.length} of ${PHOTOS.length} photos`;
 }

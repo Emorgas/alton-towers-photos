@@ -8,34 +8,74 @@
 <meta name="description" content="Our Alton Towers ride photos, grouped by ride and year. Same rides, same friends, worsening screams.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=Caveat:wght@600;700&display=swap">
 <style>
 :root{
-  --night:#101318; --panel:#171c24; --panel2:#1d242f; --line:#2a3342;
-  --ink:#eef1f4; --mist:#9aa7b5; --ember:#ff9e45; --ember2:#ffcf87;
-  --purple:#9a7bff; --green:#62d99a; --radius:14px;
+  --night:#0c0e15; --panel:#151926; --panel2:#1c2233; --line:#2c3550;
+  --ink:#f0ead9; --mist:#a7aec4; --ember:#ff9e45; --ember2:#ffcf87;
+  --purple:#9a7bff; --paper:#f6f1e3; --paper-ink:#2a2118;
+  --radius:14px;
   --display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;
   --body:"Atkinson Hyperlegible","Helvetica Neue",Arial,system-ui,sans-serif;
+  --hand:"Caveat","Segoe Script",cursive;
   color-scheme:dark;
 }
 *{box-sizing:border-box} html,body{margin:0}
-body{background:radial-gradient(1100px 500px at 85% -80px,rgba(154,123,255,.16),transparent 60%),radial-gradient(900px 480px at 8% -60px,rgba(255,158,69,.13),transparent 55%),var(--night);color:var(--ink);font:16px/1.55 var(--body)}
-.wrap{max-width:1320px;margin:0 auto;padding:34px 20px 70px;display:grid;gap:26px}
-header.hero{display:grid;gap:12px;max-width:78ch}
-.eyebrow{font:700 12px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--ember)}
-h1{font:800 clamp(32px,5.4vw,56px)/1.02 var(--display);margin:0;letter-spacing:-.015em;text-wrap:balance}
-h1 .grad{background:linear-gradient(92deg,var(--ember2),var(--ember) 45%,var(--purple));-webkit-background-clip:text;background-clip:text;color:transparent}
-header.hero p{margin:0;color:var(--mist);font-size:17px}
-.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;color:var(--mist)}
-.stat b{color:var(--ink);font-variant-numeric:tabular-nums}
+body{
+  background:
+    radial-gradient(2px 2px at 12% 90px,rgba(255,255,255,.75) 50%,transparent 51%),
+    radial-gradient(1.5px 1.5px at 32% 40px,rgba(255,255,255,.5) 50%,transparent 51%),
+    radial-gradient(2px 2px at 55% 140px,rgba(255,255,255,.6) 50%,transparent 51%),
+    radial-gradient(1.5px 1.5px at 74% 60px,rgba(255,255,255,.45) 50%,transparent 51%),
+    radial-gradient(2px 2px at 90% 170px,rgba(255,255,255,.55) 50%,transparent 51%),
+    radial-gradient(1.5px 1.5px at 44% 210px,rgba(255,255,255,.35) 50%,transparent 51%),
+    radial-gradient(1000px 520px at 88% -120px,rgba(255,207,135,.10),transparent 60%),
+    radial-gradient(900px 500px at 5% 0px,rgba(154,123,255,.13),transparent 55%),
+    linear-gradient(180deg,#0a0c13 0%,var(--night) 340px);
+  color:var(--ink);font:16px/1.55 var(--body);
+}
+.wrap{max-width:1320px;margin:0 auto;padding:30px 20px 0;display:grid;gap:26px}
 
-/* controls */
-.controls{position:sticky;top:0;z-index:30;background:rgba(16,19,24,.92);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:grid;gap:12px}
+/* ---------- hero: the park gates at night ---------- */
+header.hero{position:relative;border:3px solid #3a2c17;border-radius:20px;padding:34px 30px 28px;overflow:hidden;
+  background:linear-gradient(180deg,rgba(28,22,12,.88),rgba(16,15,24,.94));
+  box-shadow:0 0 0 6px #12101d,0 0 44px rgba(255,158,69,.14),inset 0 0 60px rgba(0,0,0,.5)}
+header.hero::before{content:"";position:absolute;inset:9px;border:1.5px dashed rgba(255,207,135,.35);border-radius:13px;pointer-events:none}
+.moon{position:absolute;top:22px;right:28px;width:74px;height:74px;border-radius:50%;
+  background:radial-gradient(circle at 38% 34%,#fff8df,#f3dfae 55%,#e2c888);
+  box-shadow:0 0 34px 8px rgba(255,232,170,.35),inset -10px -8px 0 rgba(190,160,95,.35)}
+.moon::after{content:"";position:absolute;inset:0;border-radius:50%;
+  background:radial-gradient(circle at 66% 60%,rgba(190,160,95,.4) 0 7px,transparent 8px),radial-gradient(circle at 30% 66%,rgba(190,160,95,.35) 0 5px,transparent 6px)}
+.bulbs{height:12px;margin:0 6px 18px;border-radius:99px;
+  background-image:radial-gradient(circle, #ffd98f 0 3.2px, rgba(255,217,143,.35) 4.5px, transparent 6px);
+  background-size:26px 12px;background-repeat:repeat-x;background-position:center;
+  filter:drop-shadow(0 0 5px rgba(255,190,90,.8));animation:twinkle 2.6s ease-in-out infinite alternate}
+@keyframes twinkle{from{opacity:.75}to{opacity:1}}
+.eyebrow{font:700 12px/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--ember);display:flex;gap:10px;align-items:center}
+.eyebrow::after{content:"";flex:0 0 54px;height:1px;background:linear-gradient(90deg,var(--ember),transparent)}
+h1{font:800 clamp(34px,5.6vw,58px)/1.02 var(--display);margin:10px 0 0;letter-spacing:-.015em;text-wrap:balance;max-width:16ch}
+h1 .grad{background:linear-gradient(92deg,var(--ember2),var(--ember) 45%,#ff7a59);-webkit-background-clip:text;background-clip:text;color:transparent}
+header.hero p.lede{margin:12px 0 0;color:#cfc7ae;font-size:17px;max-width:62ch}
+.handnote{font:700 clamp(20px,2.6vw,26px)/1.15 var(--hand);color:var(--ember2);transform:rotate(-1.4deg);margin-top:12px}
+.ticket{position:absolute;right:118px;bottom:20px;transform:rotate(5deg);background:var(--paper);color:var(--paper-ink);
+  font:700 11px/1.35 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:9px 14px 9px 18px;border-radius:6px;
+  border-left:2px dashed #b8a888;box-shadow:0 6px 16px rgba(0,0,0,.45)}
+.ticket b{display:block;font-size:14px;letter-spacing:.06em}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;position:relative;z-index:1}
+.stat{background:rgba(21,25,38,.92);border:1.5px dashed #4a547a;border-radius:10px;padding:9px 14px;font-size:14px;color:var(--mist)}
+.stat b{color:var(--ink);font-variant-numeric:tabular-nums}
+.stat.fun b{color:var(--ember2)}
+
+/* ---------- controls: park map board ---------- */
+.controls{position:sticky;top:10px;z-index:30;background:rgba(17,20,32,.94);backdrop-filter:blur(10px);
+  border:1.5px solid var(--line);border-radius:var(--radius);padding:14px;display:grid;gap:12px;
+  box-shadow:0 14px 34px rgba(0,0,0,.45)}
+.controls::before{content:"";height:9px;border-radius:99px;margin:-4px 2px 0;
+  background:repeating-linear-gradient(115deg,var(--ember) 0 14px,#e2543e 14px 28px,var(--purple) 28px 42px,#3fa7a0 42px 56px)}
 .tabs{display:flex;flex-wrap:wrap;gap:8px}
 .tab{font:700 14px/1 var(--body);padding:11px 16px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--mist);cursor:pointer}
-.tab[aria-pressed="true"]{background:var(--ember);border-color:var(--ember);color:#201304}
-.tab:hover{color:var(--ink)} .tab[aria-pressed="true"]:hover{color:#201304}
+.tab[aria-pressed="true"]{background:var(--ember);border-color:var(--ember);color:#241304}
+.tab:hover{color:var(--ink)} .tab[aria-pressed="true"]:hover{color:#241304}
 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .row .lbl{font:700 11px/1 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--mist);margin-right:2px}
 .chip{font:700 13px/1 var(--body);padding:9px 13px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--mist);cursor:pointer}
@@ -46,76 +86,112 @@ header.hero p{margin:0;color:var(--mist);font-size:17px}
 select,input[type=text]{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:9px 11px;font:14px var(--body)}
 .btn{font:700 13px/1 var(--body);padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--ink);cursor:pointer}
 .btn:hover{border-color:var(--ember)}
-.btn.primary{background:var(--ember);border-color:var(--ember);color:#201304}
+.btn.primary{background:var(--ember);border-color:var(--ember);color:#241304}
 .btn[aria-pressed="true"]{background:var(--purple);border-color:var(--purple);color:#160b33}
 .count{color:var(--mist);font-size:14px;margin-left:auto}
 
-/* grid */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
-.card{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:grid;cursor:pointer}
-.card:hover{border-color:var(--ember)}
-.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#0a0c0f}
-.card figcaption{padding:10px 12px 12px;display:grid;gap:6px}
+/* ---------- polaroid prints ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px 16px;padding-top:6px}
+.card{--rot:0deg;--ride:var(--ember);margin:0;position:relative;cursor:pointer;
+  background:var(--paper);border-radius:4px;padding:10px 10px 12px;
+  transform:rotate(var(--rot));
+  box-shadow:0 10px 24px rgba(0,0,0,.5),0 2px 5px rgba(0,0,0,.5);
+  transition:transform .22s ease,box-shadow .22s ease}
+.card::before{content:"";position:absolute;top:-11px;left:50%;width:86px;height:24px;margin-left:-43px;z-index:2;
+  background:linear-gradient(180deg,rgba(255,214,140,.85),rgba(240,190,105,.75));
+  transform:rotate(-2deg);border-left:1.5px dashed rgba(120,85,20,.35);border-right:1.5px dashed rgba(120,85,20,.35);
+  box-shadow:0 2px 4px rgba(0,0,0,.25);opacity:.92}
+.card:hover{transform:rotate(0deg) translateY(-5px) scale(1.015);box-shadow:0 20px 38px rgba(0,0,0,.6),0 3px 8px rgba(0,0,0,.5);z-index:3}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#0a0c0f;border-radius:2px}
+.card figcaption{padding:9px 4px 0;display:grid;gap:5px}
 .card .t{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
-.card .ride{font:700 16px/1.15 var(--display)}
-.card .year{color:var(--ember2);font-weight:700;font-size:13px;white-space:nowrap}
+.card .ride{font:700 23px/1 var(--hand);color:var(--paper-ink);letter-spacing:.01em}
+.card .stamp{font:700 10.5px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:#8a4b16;
+  border:1.8px solid rgba(180,100,30,.55);border-radius:4px;padding:4px 6px;transform:rotate(-2.5deg);white-space:nowrap;background:rgba(255,255,255,.35)}
+.card .hint{color:#7a6c55;font-size:12.5px}
 .tags{display:flex;flex-wrap:wrap;gap:5px}
-.ptag{font-size:12px;padding:4px 8px;border-radius:999px;background:rgba(154,123,255,.15);border:1px solid rgba(154,123,255,.4);color:#d9cdff}
-.ptag.none{background:transparent;border-style:dashed;color:var(--mist)}
+.ptag{font-size:12px;padding:4px 8px;border-radius:999px;background:rgba(154,123,255,.18);border:1px solid rgba(120,80,220,.45);color:#4a2f8f}
+.ptag.none{background:transparent;border-style:dashed;border-color:#b9ac8f;color:#8b7d63}
 
-/* ride sections */
-.ridegroup{display:grid;gap:12px}
-.ridegroup>h2,.viewhead{font:700 clamp(20px,2.6vw,27px)/1.15 var(--display);margin:6px 0 0;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline}
+/* ---------- ride sections: entrance signs ---------- */
+.ridegroup{display:grid;gap:14px;margin-top:10px}
+.ridegroup>h2,.viewhead{--ride:var(--ember);font:800 clamp(21px,2.7vw,29px)/1.15 var(--display);margin:8px 0 0;
+  display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;
+  padding-left:14px;border-left:6px solid var(--ride)}
 .ridegroup>h2 .sub,.viewhead .sub{font:400 14px var(--body);color:var(--mist)}
-.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,300px);gap:12px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x proximity}
+.ridegroup>h2 .sign{font:700 10.5px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:#0e0c08;
+  background:var(--ride);border-radius:4px;padding:5px 7px;align-self:center}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(235px,295px);gap:16px;overflow-x:auto;padding:14px 4px 12px;scroll-snap-type:x proximity}
 .strip .card{scroll-snap-align:start}
 
-/* compare */
-.years{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-.yearcol{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px;display:grid;gap:10px;align-content:start}
-.yearcol h3{margin:0;font:800 22px/1 var(--display);color:var(--ember2)}
-.yearcol .empty{color:var(--mist);font-size:14px;border:1px dashed var(--line);border-radius:10px;padding:16px;text-align:center}
-.yearcol .card{border:0;background:var(--panel2)}
+/* ---------- compare: then & now album pages ---------- */
+.years{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:16px;padding-top:8px}
+.yearcol{background:linear-gradient(180deg,#171b29,#12151f);border:1.5px solid var(--line);border-radius:var(--radius);padding:14px;display:grid;gap:12px;align-content:start;position:relative}
+.yearcol h3{margin:0;font:800 25px/1 var(--display);color:var(--ember2)}
+.yearcol h3 .mo{font:600 15px var(--body);color:var(--mist);letter-spacing:.08em;text-transform:uppercase;margin-left:7px}
+.yearcol .empty{font:600 19px/1.3 var(--hand);color:var(--mist);border:1.5px dashed var(--line);border-radius:10px;padding:16px;text-align:center}
+.yearcol .card{--rot:0deg}
 
-footer{color:var(--mist);font-size:14px;border-top:1px solid var(--line);padding-top:18px;display:grid;gap:6px}
+/* ---------- footer with skyline ---------- */
+footer{color:var(--mist);font-size:14px;margin-top:10px}
+.skyline{display:block;width:100%;height:86px;margin-bottom:-1px}
+footer .foot-in{border-top:1.5px solid var(--line);padding:18px 2px 30px;display:grid;gap:6px}
 footer p{margin:0}
 a{color:var(--ember2)}
 
-/* lightbox */
-.lb{position:fixed;inset:0;z-index:60;background:rgba(5,6,8,.93);overflow-y:auto;padding:18px;display:flex;flex-direction:column;align-items:center}
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;z-index:60;background:rgba(5,6,10,.94);overflow-y:auto;padding:18px;display:flex;flex-direction:column;align-items:center}
 .lb[hidden]{display:none}
-.lb img{max-width:min(1100px,96vw);max-height:56vh;flex:none;border-radius:10px;box-shadow:0 18px 60px rgba(0,0,0,.6)}
-.lb .bar{width:min(1100px,96vw);flex:none;display:grid;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-top:12px}
+.lb img{max-width:min(1060px,94vw);max-height:56vh;flex:none;background:#fff;padding:10px;border-radius:4px;box-shadow:0 22px 60px rgba(0,0,0,.65)}
+.lb .bar{width:min(1060px,94vw);flex:none;display:grid;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-top:14px}
 .lb .bar .top{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;justify-content:space-between}
-.lb .title{font:700 20px/1.2 var(--display)}
+.lb .title{font:700 26px/1.1 var(--hand);letter-spacing:.01em}
 .lb .meta{color:var(--mist);font-size:14px}
 .lb .nav{display:flex;gap:8px}
 .tagbox{border-top:1px dashed var(--line);padding-top:10px;display:grid;gap:8px}
 .tagbox .who{display:flex;flex-wrap:wrap;gap:6px}
 .tagbox .who .chip[aria-pressed="true"]{border-color:var(--purple);background:rgba(154,123,255,.2);color:var(--ink)}
+.tagbox .who .ptag{background:rgba(255,158,69,.13);border-color:rgba(255,158,69,.45);color:#ffd9a8}
 .hint{font-size:13px;color:var(--mist)}
-@media(max-width:560px){.wrap{padding-inline:14px}.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+.empty-note{font:600 22px/1.35 var(--hand);color:var(--mist);text-align:center;padding:34px 10px}
+@media(max-width:560px){
+  .wrap{padding-inline:13px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:16px 11px}
+  .card .ride{font-size:19px}
+  .ticket{display:none}
+  .moon{width:52px;height:52px;top:16px;right:16px}
+  header.hero{padding:26px 20px 22px}
+  .strip{grid-auto-columns:minmax(200px,240px)}
+}
+@media(prefers-reduced-motion:reduce){
+  .bulbs{animation:none}
+  .card{transition:none}
+  .card:hover{transform:rotate(var(--rot))}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="hero">
-    <div class="eyebrow">Alton Towers · Scarefest season · October trips</div>
+    <div class="moon" aria-hidden="true"></div>
+    <div class="bulbs" aria-hidden="true"></div>
+    <div class="eyebrow">Alton Towers · Scarefest season · Est. 2014</div>
     <h1>Same rides. Same friends. <span class="grad">Worsening screams.</span></h1>
-    <p>Every on-ride photo from our October trips, grouped by ride so you can watch us age
-    one coaster at a time. Filter by who is in the photo once people have been tagged —
-    hit <b>Tag mode</b>, open a photo, and tap the names that apply.</p>
+    <p class="lede">The official unofficial archive: every on-ride photo from a decade of October trips,
+    rescued from a Drive folder and pinned up properly. Grouped by ride, so you can watch us age one coaster at a time.</p>
+    <div class="handnote">that's you lot, mid-scream, below ↓</div>
     <div class="stats" id="stats"></div>
+    <div class="ticket" aria-hidden="true">Admit the whole gang<b>Season pass · 2014 — forever</b></div>
   </header>
 
   <section class="controls" aria-label="Filters and views">
     <div class="tabs" role="group" aria-label="View">
-      <button class="tab" data-view="all" aria-pressed="true">All photos</button>
+      <button class="tab" data-view="all" aria-pressed="true">The whole wall</button>
       <button class="tab" data-view="ride" aria-pressed="false">By ride</button>
-      <button class="tab" data-view="compare" aria-pressed="false">Compare years</button>
-      <button class="tab" data-view="year" aria-pressed="false">By year</button>
+      <button class="tab" data-view="compare" aria-pressed="false">Then &amp; now</button>
+      <button class="tab" data-view="year" aria-pressed="false">By trip</button>
     </div>
-    <div class="row" id="yearRow"><span class="lbl">Year</span></div>
+    <div class="row" id="yearRow"><span class="lbl">Trip</span></div>
     <div class="row" id="rideRow"><span class="lbl">Ride</span></div>
     <div class="row" id="peopleRow"><span class="lbl">People</span><span class="hint" id="peopleHint">No one tagged yet — turn on Tag mode and open a photo to start.</span></div>
     <div class="row">
@@ -136,10 +212,17 @@ a{color:var(--ember2)}
   <main id="main"></main>
 
   <footer>
-    <p>Photos live in Stephen's Google Drive (“Alton Towers” folder); this page uses web-sized copies.
-    Full-resolution originals are in Drive — ask Stephen for the folder link.</p>
-    <p>Tagging is saved in your browser on this device. Use <b>Export tags</b> and send the file to Stephen
-    and he can bake your tags into the site so everyone sees them.</p>
+    <svg class="skyline" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+      <path fill="#05060a" d="M0,90 L0,72 L60,72 L70,40 L82,72 L150,72 L165,58 L180,72 L300,72 L312,30 Q330,8 348,30 L360,72 L520,72 L535,50 L550,72 L700,72 L712,18 Q726,2 740,18 L752,72 L900,72 L915,55 L930,72 L1060,72 L1072,38 L1084,72 L1200,72 L1200,90 Z"/>
+      <circle cx="326" cy="30" r="3" fill="#ffcf87"/><circle cx="726" cy="18" r="3" fill="#ffcf87"/><circle cx="1078" cy="38" r="3" fill="#ffcf87"/>
+    </svg>
+    <div class="foot-in">
+      <p>Photos live in Stephen's Google Drive (“Alton Towers” folder); this wall uses web-sized prints.
+      Full-resolution originals are in Drive — ask Stephen for the folder link.</p>
+      <p>Tagging is saved in your browser on this device. Use <b>Export tags</b> and send the file to Stephen
+      and he can bake your tags into the site so everyone sees them.</p>
+      <p class="handnote" style="font-size:19px;margin-top:4px">no refunds on screams 🎢</p>
+    </div>
   </footer>
 </div>
 

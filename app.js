@@ -111,6 +111,9 @@ function buildFilters() {
     ...[...state.people].sort().map(n => ({ set: state.people, v: n, label: n, cls: "person" }))
   ];
   act.hidden = !items.length;
+  const labels = items.map(i => i.label);
+  $("#filterSummary").textContent = !labels.length ? "" :
+    " · " + (labels.length <= 2 ? labels.join(" + ") : labels[0] + " +" + (labels.length - 1) + " more");
   items.forEach(it => {
     const b = document.createElement("button");
     b.className = "achip " + it.cls; b.textContent = it.label + " ✕";
@@ -160,7 +163,7 @@ function card(p) {
   return f;
 }
 function render() {
-  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-pressed", t.dataset.view === state.view));
+  document.querySelectorAll(".vtab").forEach(t => t.setAttribute("aria-pressed", t.dataset.view === state.view));
   $("#compareRow").hidden = state.view !== "compare";
   main.innerHTML = "";
   let list = PHOTOS;
@@ -295,9 +298,14 @@ function scrollMainIntoView() {
   const y = main.getBoundingClientRect().top + window.scrollY - offset;
   window.scrollTo({ top: Math.max(0, y), behavior: "auto" });
 }
-document.querySelectorAll(".tab").forEach(t => t.onclick = () => { state.view = t.dataset.view; render(); scrollMainIntoView(); });
+document.querySelectorAll(".vtab").forEach(t => t.onclick = () => { state.view = t.dataset.view; render(); scrollMainIntoView(); });
 $("#compareSelect").onchange = e => { state.compareRide = e.target.value; render(); scrollMainIntoView(); };
-$("#tagModeBtn").onclick = e => { state.tagMode = !state.tagMode; e.currentTarget.setAttribute("aria-pressed", state.tagMode); if (!$("#lightbox").hidden) showLb(); };
+$("#tagModeBtn").onclick = e => { state.tagMode = !state.tagMode; e.currentTarget.setAttribute("aria-pressed", state.tagMode); $("#tagBar").hidden = !state.tagMode; if (!$("#lightbox").hidden) showLb(); };
+$("#filterToggle").onclick = () => {
+  const f = $("#filterFolder"), open = f.hidden;
+  f.hidden = !open;
+  $("#filterToggle").setAttribute("aria-expanded", open);
+};
 $("#addPersonBtn").onclick = () => {
   const name = prompt("Person's name (as it should appear on tags):");
   if (!name || !name.trim()) return;

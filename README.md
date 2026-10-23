@@ -1,6 +1,6 @@
 # Scarefest Through the Years — Alton Towers Ride Photos
 
-Our Alton Towers on-ride photos from the October trips (2016, 2018, 2019, 2023, 2024, 2026),
+Our Alton Towers on-ride photos from the October trips (2014, 2016, 2018, 2019, 2023, 2024, 2026),
 grouped by ride so the same ride can be compared across the years.
 
 - **All photos / By ride / By year** — browse and filter
@@ -12,6 +12,7 @@ grouped by ride so the same ride can be compared across the years.
   (2019 filename codes: AR=Galactica, CR=Congo River Rapids, HH=Duel, MT=Runaway Mine Train,
   NE=Nemesis, RI=Rita, SW=Spinball Whizzer, TH=TH13TEEN, WM=Wicker Man).
   Wrong ride on a photo? Tag mode also lets you correct it.
+- Duel and The Curse of Alton Manor are one category (Duel / Curse) — same haunted-house ride, rethemed in 2023.
 
 Originals (full resolution) live in Stephen's Google Drive “Alton Towers” folder —
 every photo on the site links back to its Drive original.

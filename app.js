@@ -8,7 +8,7 @@ const LS_KEY = "at-photos-local-v1";
 let PHOTOS = [];
 let shared = { people: [], tags: {}, rideFixes: {} };
 let local = loadLocal();
-const state = { view: "all", years: new Set(), rides: new Set(), people: new Set(), tagMode: false, compareRide: null, lbIndex: -1, visible: [] };
+const state = { view: "all", fcat: "ride", years: new Set(), rides: new Set(), people: new Set(), tagMode: false, compareRide: null, lbIndex: -1, visible: [] };
 
 function loadLocal() {
   try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch { return {}; }
@@ -59,26 +59,63 @@ function chip(label, pressed, cls = "", count) {
   return b;
 }
 function buildFilters() {
-  const yr = $("#yearRow"); yr.querySelectorAll(".chip").forEach(c => c.remove());
-  [...new Set(PHOTOS.map(p => p.year))].sort().forEach(y => {
-    const c = chip(String(y), state.years.has(y), "", PHOTOS.filter(p => p.year === y).length);
-    c.onclick = () => { toggle(state.years, y); buildFilters(); render(); };
-    yr.appendChild(c);
+  // Layer 1: filter category tabs (Ride / Trip / People), with active-count badges
+  const catCounts = { ride: state.rides.size, year: state.years.size, people: state.people.size };
+  document.querySelectorAll(".ftab").forEach(b => {
+    const cat = b.dataset.fcat;
+    b.setAttribute("aria-pressed", state.fcat === cat);
+    const badge = b.querySelector(".fbadge");
+    badge.hidden = !catCounts[cat];
+    badge.textContent = catCounts[cat] || "";
+    b.onclick = () => { state.fcat = cat; buildFilters(); };
   });
-  const rr = $("#rideRow"); rr.querySelectorAll(".chip").forEach(c => c.remove());
-  [...new Set(PHOTOS.map(p => rideOf(p)))].sort().forEach(r => {
-    const c = chip(r, state.rides.has(r), "", PHOTOS.filter(p => rideOf(p) === r).length);
-    c.onclick = () => { toggle(state.rides, r); buildFilters(); render(); };
-    rr.appendChild(c);
-  });
-  const pr = $("#peopleRow"); pr.querySelectorAll(".chip").forEach(c => c.remove());
-  const folks = people();
-  $("#peopleHint").hidden = folks.length > 0;
-  const counts = {}; Object.values(mergedTags()).flat().forEach(n => counts[n] = (counts[n] || 0) + 1);
-  folks.forEach(name => {
-    const c = chip(name, state.people.has(name), "person", counts[name] || 0);
-    c.onclick = () => { toggle(state.people, name); buildFilters(); render(); };
-    pr.appendChild(c);
+  const anyActive = catCounts.ride + catCounts.year + catCounts.people > 0;
+  $("#clearFilters").hidden = !anyActive;
+  $("#clearFilters").onclick = () => { state.years.clear(); state.rides.clear(); state.people.clear(); buildFilters(); render(); };
+
+  // Layer 2: selection chips for the chosen category only
+  const wrap = $("#filterChips"); wrap.innerHTML = "";
+  $("#peopleHint").hidden = true;
+  if (state.fcat === "year") {
+    $("#filterPanelLbl").textContent = "Which trip?";
+    [...new Set(PHOTOS.map(p => p.label))].sort().forEach(label => {
+      const y = PHOTOS.find(p => p.label === label).year;
+      const c = chip(label, state.years.has(y), "", PHOTOS.filter(p => p.year === y).length);
+      c.onclick = () => { toggle(state.years, y); buildFilters(); render(); };
+      wrap.appendChild(c);
+    });
+  } else if (state.fcat === "people") {
+    $("#filterPanelLbl").textContent = "Who's in it?";
+    const folks = people();
+    if (!folks.length) { $("#peopleHint").hidden = false; }
+    const counts = {}; Object.values(mergedTags()).flat().forEach(n => counts[n] = (counts[n] || 0) + 1);
+    folks.forEach(name => {
+      const c = chip(name, state.people.has(name), "person", counts[name] || 0);
+      c.onclick = () => { toggle(state.people, name); buildFilters(); render(); };
+      wrap.appendChild(c);
+    });
+  } else {
+    $("#filterPanelLbl").textContent = "Which ride?";
+    [...new Set(PHOTOS.map(p => rideOf(p)))].sort().forEach(r => {
+      const c = chip(r, state.rides.has(r), "", PHOTOS.filter(p => rideOf(p) === r).length);
+      c.onclick = () => { toggle(state.rides, r); buildFilters(); render(); };
+      wrap.appendChild(c);
+    });
+  }
+
+  // Active-filter summary: what's currently applied across all categories, tap to remove one
+  const act = $("#activeFilters"), ac = $("#activeChips"); ac.innerHTML = "";
+  const items = [
+    ...[...state.years].sort().map(y => ({ set: state.years, v: y, label: (PHOTOS.find(p => p.year === y) || {}).label || String(y), cls: "" })),
+    ...[...state.rides].sort().map(r => ({ set: state.rides, v: r, label: r, cls: "" })),
+    ...[...state.people].sort().map(n => ({ set: state.people, v: n, label: n, cls: "person" }))
+  ];
+  act.hidden = !items.length;
+  items.forEach(it => {
+    const b = document.createElement("button");
+    b.className = "achip " + it.cls; b.textContent = it.label + " ✕";
+    b.onclick = () => { it.set.delete(it.v); buildFilters(); render(); };
+    ac.appendChild(b);
   });
   const sel = $("#compareSelect");
   sel.innerHTML = "";

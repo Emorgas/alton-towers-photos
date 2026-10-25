@@ -43,7 +43,8 @@ function buildStats() {
   const screams = PHOTOS.reduce((a, p) => a + (p.count || 0), 0);
   const byRide = {}; PHOTOS.forEach(p => { const r = rideOf(p); byRide[r] = (byRide[r] || 0) + 1; });
   const topRide = Object.entries(byRide).sort((a, b) => b[1] - a[1])[0];
-  $("#stats").innerHTML = [
+  const statsEl = $("#stats"); if (!statsEl) return;
+  statsEl.innerHTML = [
     `<span class="stat"><b>${PHOTOS.length}</b> photos on the wall</span>`,
     `<span class="stat"><b>${years.length}</b> trips — ${years.join(" · ")}</span>`,
     `<span class="stat"><b>${rides.size}</b> rides &amp; attractions</span>`,
@@ -138,10 +139,10 @@ function filtered(list) {
   );
 }
 const RIDE_COLORS = {
-  "The Smiler": "#ffd21f", "Wicker Man": "#ff5e3a", "Nemesis (Reborn)": "#e33f4e",
-  "Oblivion": "#ffa41a", "Galactica": "#39d0c4", "Rita": "#ff4d6d",
-  "Runaway Mine Train": "#d9a05b", "Spinball Whizzer": "#5aa2ff", "TH13TEEN": "#9ccc3c",
-  "Duel / Curse of Alton Manor": "#a06bff", "Congo River Rapids": "#2fbf71",
+  "The Smiler": "#e0a800", "Wicker Man": "#ff5e3a", "Nemesis (Reborn)": "#a41623",
+  "Oblivion": "#ffa41a", "Galactica": "#2a9d8f", "Rita": "#ff4d6d",
+  "Runaway Mine Train": "#d9a05b", "Spinball Whizzer": "#5f6f52", "TH13TEEN": "#9ccc3c",
+  "Duel / Curse of Alton Manor": "#7d4f9e", "Congo River Rapids": "#2fbf71",
   "Extras — around the park": "#f0ead9"
 };
 function rideColor(r) { return RIDE_COLORS[r] || "#ff9e45"; }

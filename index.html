@@ -183,7 +183,7 @@ a{color:#8a3c10}
     </div>
     <div class="bar">
       <button class="btn" id="filterToggle" aria-expanded="false">🎢 Filters<span class="fsum" id="filterSummary"></span> <span class="car" aria-hidden="true">▾</span></button>
-      <button class="btn" id="tagModeBtn" aria-pressed="false">✎ Tag mode</button>
+      <button class="btn" id="tagModeBtn" aria-pressed="false" hidden>✎ Tag mode</button>
       <span class="count" id="count"></span>
     </div>
     <div class="folder" id="filterFolder" hidden>
@@ -218,8 +218,8 @@ a{color:#8a3c10}
     <div class="foot-in">
       <p>Photos live in Stephen's Google Drive (“Alton Towers” folder); this wall uses web-sized prints.
       Full-resolution originals are in Drive — ask Stephen for the folder link.</p>
-      <p>Tagging is saved in your browser on this device. Use <b>Export tags</b> and send the file to Stephen
-      and he can bake your tags into the site so everyone sees them.</p>
+      <p>Every photo is tagged with who's in it — open a photo to see the names,
+      or use the Filters folder to show just one person's photos.</p>
       <p class="handnote" style="font-size:19px;margin-top:4px">no refunds on screams 🎢</p>
     </div>
   </footer>
@@ -243,19 +243,9 @@ a{color:#8a3c10}
       </span>
     </div>
     <div class="tagbox" id="lbTagBox" style="border-top:0;padding-top:2px">
-      <div class="lbl" style="font:700 12px/1 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--ember)">Who is in this photo? — tap the names</div>
       <div class="who" id="lbWho"></div>
-      <div class="hint" id="lbTagHint">Turn on Tag mode (top of the page) to edit these.</div>
     </div>
-    <div class="tagbox" id="lbSeatBox" hidden>
-      <div class="lbl" style="font:700 11px/1 var(--body);letter-spacing:.13em;text-transform:uppercase;color:var(--mist)">Riders in this photo — seat guide</div>
-      <div class="who" id="lbSeats"></div>
-      <div class="hint" id="lbBurstHint"></div>
-      <div class="row" id="lbBurstRow" hidden>
-        <button class="btn" id="lbBurstBtn">Apply these names to the whole burst</button>
-        <span class="hint">Same ride, same vehicle load — check the other photos after applying.</span>
-      </div>
-    </div>
+  </div>
   </div>
 </div>
 

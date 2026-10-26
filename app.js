@@ -244,42 +244,10 @@ function showLb() {
     local.rideFixes = local.rideFixes || {}; local.rideFixes[p.id] = r; saveLocal();
     buildFilters(); render(); showLb();
   };
-  // Seat guide + burst helper (data from the assisted tagging pass; positions/clothing only, no identities)
-  const seatBox = $("#lbSeatBox");
-  if (p.seats && p.seats.length) {
-    seatBox.hidden = false;
-    $("#lbSeats").innerHTML = p.seats.map(s => `<span class="ptag" style="background:rgba(255,158,69,.12);border-color:rgba(255,158,69,.4);color:#ffd9a8">${s.pos} — ${s.note}</span>`).join("");
-    const members = burstMembers(p);
-    $("#lbBurstHint").textContent = members.length > 1
-      ? `Part of a burst of ${members.length} photos (same ride session${p.burstConfidence ? ", " + p.burstConfidence + " confidence" : ""}). Tag this one, then apply to the burst.`
-      : "Single photo — no burst partners found.";
-    $("#lbBurstRow").hidden = !(state.tagMode && members.length > 1);
-    $("#lbBurstBtn").textContent = `Apply these names to the whole burst (${members.length} photos)`;
-    $("#lbBurstBtn").onclick = () => {
-      const names = tagsOf(p);
-      if (!names.length) { alert("Tag at least one name on this photo first."); return; }
-      local.tags = local.tags || {};
-      members.forEach(m => { local.tags[m.id] = [...names]; });
-      saveLocal(); buildStats(); buildFilters(); render(); showLb();
-      alert(`Applied ${names.join(", ")} to ${members.length} photos in this burst. Check each one — you can untag anyone who is not actually in it.`);
-    };
-  } else { seatBox.hidden = true; }
-  const who = $("#lbWho"); who.innerHTML = "";
-  people().forEach(name => {
-    const on = tagsOf(p).includes(name);
-    const c = chip(name, on, "person");
-    c.disabled = !state.tagMode;
-    c.onclick = () => {
-      const cur = new Set(tagsOf(p));
-      cur.has(name) ? cur.delete(name) : cur.add(name);
-      local.tags = local.tags || {}; local.tags[p.id] = [...cur]; saveLocal();
-      buildStats(); buildFilters(); render(); showLb();
-    };
-    who.appendChild(c);
-  });
-  $("#lbTagHint").textContent = state.tagMode
-    ? "Tap names to tag this photo. Saved on this device — Export tags (top of page) to share them with Stephen."
-    : "Turn on Tag mode (top of the page) to edit these.";
+  // Who's in this photo: read-only name tags (tagging UI is retired; tags are baked into data/tags.json)
+  const names = tagsOf(p);
+  $("#lbTagBox").hidden = !names.length;
+  $("#lbWho").innerHTML = names.map(n => `<span class="ptag">${n}</span>`).join("");
 }
 function stepLb(d) { state.lbIndex = (state.lbIndex + d + state.visible.length) % state.visible.length; showLb(); }
 $("#lbClose").onclick = () => { $("#lightbox").hidden = true; };

@@ -231,7 +231,7 @@ function showLb() {
   $("#lbImg").src = `photos/${p.file}`;
   $("#lbImg").alt = `${rideOf(p)} ride photo, ${p.label}`;
   $("#lbTitle").textContent = rideOf(p);
-  $("#lbMeta").textContent = `${p.label} · ${p.originalName}`;
+  $("#lbMeta").textContent = p.label;
   $("#lbDrive").href = p.drive || "#";
   $("#lbRideEditWrap").hidden = !state.tagMode;
   const sel = $("#lbRideEdit"); sel.innerHTML = "";
@@ -253,6 +253,16 @@ function stepLb(d) { state.lbIndex = (state.lbIndex + d + state.visible.length) 
 $("#lbClose").onclick = () => { $("#lightbox").hidden = true; };
 $("#lbPrev").onclick = () => stepLb(-1);
 $("#lbNext").onclick = () => stepLb(1);
+// Swipe left/right through photos — bound to the photo stage only, so scrolling the info panel is never hijacked
+let swipeX = null, swipeY = null;
+const lbStage = $(".lb-stage");
+lbStage.addEventListener("touchstart", e => { const t = e.changedTouches[0]; swipeX = t.clientX; swipeY = t.clientY; }, { passive: true });
+lbStage.addEventListener("touchend", e => {
+  if (swipeX === null) return;
+  const t = e.changedTouches[0], dx = t.clientX - swipeX, dy = t.clientY - swipeY;
+  swipeX = swipeY = null;
+  if (Math.abs(dx) > 48 && Math.abs(dx) > Math.abs(dy) * 1.5) stepLb(dx < 0 ? 1 : -1);
+}, { passive: true });
 document.addEventListener("keydown", e => {
   if ($("#lightbox").hidden) return;
   if (e.key === "Escape") $("#lightbox").hidden = true;

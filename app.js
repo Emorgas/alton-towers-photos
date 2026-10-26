@@ -253,10 +253,15 @@ function stepLb(d) { state.lbIndex = (state.lbIndex + d + state.visible.length) 
 $("#lbClose").onclick = () => { $("#lightbox").hidden = true; };
 $("#lbPrev").onclick = () => stepLb(-1);
 $("#lbNext").onclick = () => stepLb(1);
-// Swipe left/right through photos — bound to the photo stage only, so scrolling the info panel is never hijacked
+// Swipe left/right through photos — bound to the photo stage only, so scrolling the info panel is never hijacked.
+// Single-finger only: a second finger (pinch-to-zoom) cancels the swipe, and nothing here blocks the browser's pinch zoom.
 let swipeX = null, swipeY = null;
 const lbStage = $(".lb-stage");
-lbStage.addEventListener("touchstart", e => { const t = e.changedTouches[0]; swipeX = t.clientX; swipeY = t.clientY; }, { passive: true });
+lbStage.addEventListener("touchstart", e => {
+  if (e.touches.length !== 1) { swipeX = swipeY = null; return; }
+  const t = e.changedTouches[0]; swipeX = t.clientX; swipeY = t.clientY;
+}, { passive: true });
+lbStage.addEventListener("touchmove", e => { if (e.touches.length > 1) swipeX = swipeY = null; }, { passive: true });
 lbStage.addEventListener("touchend", e => {
   if (swipeX === null) return;
   const t = e.changedTouches[0], dx = t.clientX - swipeX, dy = t.clientY - swipeY;

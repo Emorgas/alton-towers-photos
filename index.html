@@ -140,10 +140,11 @@ footer .handnote{color:#ffe9bb}
 a{color:#8a3c10}
 
 /* ---------- lightbox: a print pulled out of the folder ---------- */
-.lb{position:fixed;inset:0;z-index:60;background:rgba(43,29,7,.93);overflow-y:auto;padding:18px;display:flex;flex-direction:column;align-items:center}
+.lb{position:fixed;inset:0;z-index:60;background:rgba(43,29,7,.93);padding:14px;display:flex;flex-direction:column;align-items:center;gap:12px;overflow:hidden}
 .lb[hidden]{display:none}
-.lb img{max-width:min(1060px,94vw);max-height:56vh;flex:none;background:#fff;padding:10px;border-radius:4px;box-shadow:0 22px 60px rgba(0,0,0,.55)}
-.lb .bar{width:min(1060px,94vw);flex:none;display:grid;gap:10px;background:var(--panel);border:1.5px solid var(--line-d);border-radius:var(--radius);padding:14px;margin-top:14px}
+.lb-stage{flex:1 1 auto;min-height:0;width:min(1500px,100%);display:flex}
+.lb img{flex:1 1 auto;min-width:0;min-height:0;width:100%;height:100%;object-fit:contain;border-radius:2px}
+.lb .bar{width:min(1060px,100%);flex:none;max-height:48vh;overflow-y:auto;display:grid;gap:10px;background:var(--panel);border:1.5px solid var(--line-d);border-radius:var(--radius);padding:14px}
 .lb .bar .top{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;justify-content:space-between}
 .lb .title{font:700 26px/1.1 var(--hand);letter-spacing:.01em;color:var(--ink)}
 .lb .meta{color:var(--mist);font-size:14px}
@@ -226,7 +227,7 @@ a{color:#8a3c10}
 </div>
 
 <div class="lb" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
-  <img id="lbImg" alt="">
+  <div class="lb-stage"><img id="lbImg" alt=""></div>
   <div class="bar">
     <div class="top">
       <div><div class="title" id="lbTitle"></div><div class="meta" id="lbMeta"></div></div>
